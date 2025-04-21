@@ -1,0 +1,726 @@
+{
+  "skeleton": {
+    "hash": "AurlUHC460o",
+    "spine": "4.2.39",
+    "x": -52.92,
+    "y": -34.81,
+    "width": 100,
+    "height": 100,
+    "images": "./image/",
+    "audio": "./audio"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "gun",
+      "parent": "root",
+      "length": 12.3
+    },
+    {
+      "name": "a",
+      "parent": "root"
+    },
+    {
+      "name": "a2",
+      "parent": "root"
+    },
+    {
+      "name": "a3",
+      "parent": "root"
+    },
+    {
+      "name": "a4",
+      "parent": "root"
+    },
+    {
+      "name": "muzzle",
+      "parent": "gun",
+      "x": 30.28
+    },
+    {
+      "name": "flash",
+      "parent": "muzzle"
+    },
+    {
+      "name": "smoke",
+      "parent": "muzzle"
+    }
+  ],
+  "slots": [
+    {
+      "name": "kisaki_gun",
+      "bone": "gun",
+      "attachment": "kisaki_gun"
+    },
+    {
+      "name": "a",
+      "bone": "a",
+      "attachment": "a"
+    },
+    {
+      "name": "a2",
+      "bone": "a2",
+      "attachment": "a"
+    },
+    {
+      "name": "a3",
+      "bone": "a3",
+      "attachment": "a"
+    },
+    {
+      "name": "a4",
+      "bone": "a4",
+      "attachment": "a"
+    },
+    {
+      "name": "muzzle01",
+      "bone": "flash"
+    },
+    {
+      "name": "muzzle02",
+      "bone": "flash"
+    },
+    {
+      "name": "muzzle03",
+      "bone": "smoke"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "a": {
+          "a": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "a2": {
+          "a": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "a3": {
+          "a": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "a4": {
+          "a": {
+            "width": 2,
+            "height": 1
+          }
+        },
+        "kisaki_gun": {
+          "kisaki_gun": {
+            "x": -2.92,
+            "y": 15.19,
+            "width": 100,
+            "height": 100
+          }
+        },
+        "muzzle01": {
+          "muzzle01": {
+            "x": -4.81,
+            "width": 100,
+            "height": 100
+          }
+        },
+        "muzzle02": {
+          "muzzle02": {
+            "x": -4.81,
+            "width": 100,
+            "height": 100
+          }
+        },
+        "muzzle03": {
+          "muzzle03": {
+            "x": -5.9,
+            "width": 100,
+            "height": 100
+          },
+          "muzzle04": {
+            "x": -5.9,
+            "width": 100,
+            "height": 100
+          },
+          "muzzle05": {
+            "x": -5.9,
+            "width": 100,
+            "height": 100
+          },
+          "muzzle06": {
+            "x": -5.9,
+            "width": 100,
+            "height": 100
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "attack": {
+      "slots": {
+        "a": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.0667,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "a2": {
+          "rgba": [
+            {
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.1333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "a3": {
+          "rgba": [
+            {
+              "color": "ffffff80"
+            },
+            {
+              "time": 0.0667,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1333,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffff80"
+            }
+          ]
+        },
+        "a4": {
+          "rgba": [
+            {
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.1333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "muzzle01": {
+          "attachment": [
+            {
+              "name": "muzzle01"
+            },
+            {
+              "time": 0.0667
+            },
+            {
+              "time": 0.2667,
+              "name": "muzzle01"
+            }
+          ]
+        },
+        "muzzle02": {
+          "rgba": [
+            {
+              "color": "ffffff84"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.1333,
+              "name": "muzzle02"
+            },
+            {
+              "time": 0.2
+            }
+          ]
+        },
+        "muzzle03": {
+          "rgba": [
+            {
+              "color": "ffffff7c"
+            }
+          ],
+          "attachment": [
+            {
+              "name": "muzzle03"
+            },
+            {
+              "time": 0.0333,
+              "name": "muzzle04"
+            },
+            {
+              "time": 0.0667,
+              "name": "muzzle05"
+            },
+            {
+              "time": 0.1,
+              "name": "muzzle06"
+            },
+            {
+              "time": 0.1333,
+              "name": "muzzle03"
+            },
+            {
+              "time": 0.1667,
+              "name": "muzzle04"
+            },
+            {
+              "time": 0.2,
+              "name": "muzzle05"
+            },
+            {
+              "time": 0.2333,
+              "name": "muzzle06"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "gun": {
+          "rotate": [
+            {},
+            {
+              "time": 0.0333,
+              "value": -1.54
+            },
+            {
+              "time": 0.0667,
+              "value": 0.57
+            },
+            {
+              "time": 0.1,
+              "value": -1.26
+            },
+            {
+              "time": 0.1333,
+              "value": 0.3
+            },
+            {
+              "time": 0.1667,
+              "value": -0.93
+            },
+            {
+              "time": 0.2,
+              "value": 1.16
+            },
+            {
+              "time": 0.2333,
+              "value": -1.97
+            },
+            {
+              "time": 0.2667
+            }
+          ],
+          "translate": [
+            {},
+            {
+              "time": 0.0333,
+              "x": -0.64,
+              "y": 0.1
+            },
+            {
+              "time": 0.0667,
+              "x": 1.79,
+              "y": 0.2
+            },
+            {
+              "time": 0.1,
+              "x": 0.6,
+              "y": 0.3
+            },
+            {
+              "time": 0.1333,
+              "x": -0.67,
+              "y": -0.06
+            },
+            {
+              "time": 0.1667,
+              "y": -0.42
+            },
+            {
+              "time": 0.2,
+              "x": 0.7,
+              "y": -0.28
+            },
+            {
+              "time": 0.2333,
+              "x": 1.43,
+              "y": -0.14
+            },
+            {
+              "time": 0.2667
+            }
+          ]
+        },
+        "a2": {
+          "rotate": [
+            {
+              "value": 90
+            },
+            {
+              "time": 0.0667
+            },
+            {
+              "time": 0.2,
+              "value": 180
+            },
+            {
+              "time": 0.2667,
+              "value": 90
+            }
+          ],
+          "translatex": [
+            {
+              "value": -44.33,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667
+            },
+            {
+              "time": 0.2667,
+              "value": -44.33
+            }
+          ],
+          "translatey": [
+            {
+              "value": -16.52,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.0667,
+              "curve": [
+                0.267,
+                0.04,
+                0.267,
+                -16.52
+              ]
+            },
+            {
+              "time": 0.2667,
+              "value": -16.52
+            }
+          ]
+        },
+        "a3": {
+          "rotate": [
+            {
+              "value": 180
+            },
+            {
+              "time": 0.1333
+            },
+            {
+              "time": 0.2667,
+              "value": 180
+            }
+          ],
+          "translatex": [
+            {
+              "value": -22.4
+            },
+            {
+              "time": 0.0667,
+              "value": -33.6,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1333
+            },
+            {
+              "time": 0.2667,
+              "value": -22.4
+            }
+          ],
+          "translatey": [
+            {
+              "value": -5.6,
+              "curve": [
+                0.067,
+                -12.91,
+                0.067,
+                -24.82
+              ]
+            },
+            {
+              "time": 0.0667,
+              "value": -24.82,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1333,
+              "curve": [
+                0.195,
+                0.01,
+                0.237,
+                -2.36
+              ]
+            },
+            {
+              "time": 0.2667,
+              "value": -5.6
+            }
+          ]
+        },
+        "a4": {
+          "rotate": [
+            {
+              "value": 90
+            },
+            {
+              "time": 0.0667,
+              "value": 180
+            },
+            {
+              "time": 0.2
+            },
+            {
+              "time": 0.2667,
+              "value": 90
+            }
+          ],
+          "translatex": [
+            {
+              "value": -9.36
+            },
+            {
+              "time": 0.1333,
+              "value": -28.07,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2
+            },
+            {
+              "time": 0.2667,
+              "value": -9.36
+            }
+          ],
+          "translatey": [
+            {
+              "value": -1.18,
+              "curve": [
+                0.133,
+                -5.77,
+                0.133,
+                -23.86
+              ]
+            },
+            {
+              "time": 0.1333,
+              "value": -23.86,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2,
+              "curve": [
+                0.225,
+                0.01,
+                0.247,
+                -0.51
+              ]
+            },
+            {
+              "time": 0.2667,
+              "value": -1.18
+            }
+          ]
+        },
+        "a": {
+          "rotate": [
+            {},
+            {
+              "time": 0.1333,
+              "value": 180
+            },
+            {
+              "time": 0.2,
+              "value": 90
+            },
+            {
+              "time": 0.2667
+            }
+          ],
+          "translatex": [
+            {},
+            {
+              "time": 0.2,
+              "value": -44.33,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667
+            }
+          ],
+          "translatey": [
+            {
+              "curve": [
+                0.2,
+                0.04,
+                0.2,
+                -16.52
+              ]
+            },
+            {
+              "time": 0.2,
+              "value": -16.52,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667
+            }
+          ]
+        },
+        "flash": {
+          "scale": [
+            {
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 0.0333,
+              "x": 0.604
+            },
+            {
+              "time": 0.0667,
+              "x": 0.6,
+              "y": 0.6
+            },
+            {
+              "time": 0.1
+            },
+            {
+              "time": 0.1333,
+              "x": 0.3,
+              "y": 0.3
+            },
+            {
+              "time": 0.1667,
+              "x": 0.666,
+              "y": 0.716
+            },
+            {
+              "time": 0.2,
+              "x": 0.8,
+              "y": 0.8
+            },
+            {
+              "time": 0.2333
+            },
+            {
+              "time": 0.2667,
+              "x": 0.3,
+              "y": 0.3
+            }
+          ]
+        },
+        "smoke": {
+          "translate": [
+            {},
+            {
+              "time": 0.0667,
+              "x": 18.02
+            },
+            {
+              "time": 0.1333
+            },
+            {
+              "time": 0.2,
+              "x": 18.02
+            },
+            {
+              "time": 0.2667
+            }
+          ],
+          "scale": [
+            {},
+            {
+              "time": 0.0667,
+              "x": 0.1,
+              "y": 2
+            },
+            {
+              "time": 0.1,
+              "y": 1.696
+            },
+            {
+              "time": 0.1333
+            },
+            {
+              "time": 0.2,
+              "x": 0.1,
+              "y": 2
+            },
+            {
+              "time": 0.2333,
+              "y": 3.272
+            }
+          ]
+        }
+      },
+      "drawOrder": [
+        {
+          "time": 0.0333,
+          "offsets": [
+            {
+              "slot": "muzzle03",
+              "offset": -2
+            }
+          ]
+        },
+        {
+          "time": 0.1333
+        },
+        {
+          "time": 0.2667,
+          "offsets": [
+            {
+              "slot": "muzzle03",
+              "offset": -2
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

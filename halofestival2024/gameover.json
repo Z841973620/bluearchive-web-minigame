@@ -1,0 +1,16 @@
+{
+    "meta": {
+        "v": "1",
+        "region": "CN",
+        "ok": true,
+        "err": {
+            "code": 0,
+            "msg": ""
+        }
+    },
+    "data": {
+        "allSend": true,
+        "awardIndex": 0,
+        "sendAward": false
+    }
+}

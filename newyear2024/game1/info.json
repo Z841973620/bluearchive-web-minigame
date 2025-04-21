@@ -1,0 +1,12 @@
+{
+    "meta": {
+        "ver": "1.0",
+        "succ": true,
+        "error": null
+    },
+    "payload": {
+        "uid": "json",
+        "sdkId": "1000000000",
+        "channelId": "1"
+    }
+}

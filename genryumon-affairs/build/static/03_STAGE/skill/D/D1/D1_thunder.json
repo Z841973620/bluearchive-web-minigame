@@ -1,0 +1,251 @@
+{
+  "skeleton": {
+    "hash": "tKewu3GR22Y",
+    "spine": "4.2.39",
+    "x": -36.21,
+    "y": -20.84,
+    "width": 76.72,
+    "height": 78.53,
+    "images": "./image/",
+    "audio": "./audio"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "body",
+      "parent": "root"
+    },
+    {
+      "name": "bone",
+      "parent": "root",
+      "y": 30.72
+    },
+    {
+      "name": "head",
+      "parent": "bone",
+      "length": 33.3,
+      "rotation": -29.95,
+      "y": -0.84
+    },
+    {
+      "name": "shadow",
+      "parent": "root",
+      "y": -3.22,
+      "scaleY": 1.395
+    }
+  ],
+  "slots": [
+    {
+      "name": "shadow",
+      "bone": "shadow",
+      "attachment": "shadow",
+      "blend": "multiply"
+    },
+    {
+      "name": "thunder_body1",
+      "bone": "body",
+      "attachment": "D4/thunder_body1"
+    },
+    {
+      "name": "thunder_1",
+      "bone": "head",
+      "attachment": "D4/thunder_1"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "shadow": {
+          "shadow": {
+            "scaleX": 1.5794,
+            "scaleY": 1.1083,
+            "width": 29,
+            "height": 10
+          }
+        },
+        "thunder_1": {
+          "D4/thunder_1": {
+            "path": "D1/thunder_1",
+            "x": 7.65,
+            "y": -9.7,
+            "rotation": 29.95,
+            "width": 76,
+            "height": 77
+          },
+          "D4/thunder_3": {
+            "path": "D1/thunder_3",
+            "x": 7.65,
+            "y": -9.7,
+            "rotation": 29.95,
+            "width": 76,
+            "height": 77
+          }
+        },
+        "thunder_body1": {
+          "D4/thunder_body1": {
+            "path": "D1/thunder_body1",
+            "x": 2.51,
+            "y": 19.18,
+            "width": 76,
+            "height": 77
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "1": {
+      "bones": {
+        "head": {
+          "translate": [
+            {},
+            {
+              "time": 0.0667,
+              "x": -2.57,
+              "y": 1.48
+            },
+            {
+              "time": 0.1667,
+              "x": 0.47,
+              "y": -0.27
+            },
+            {
+              "time": 0.2333
+            }
+          ]
+        }
+      }
+    },
+    "2": {
+      "bones": {
+        "head": {
+          "translate": [
+            {},
+            {
+              "time": 0.0667,
+              "x": -2.57,
+              "y": 1.48
+            },
+            {
+              "time": 0.1667,
+              "x": 0.47,
+              "y": -0.27
+            },
+            {
+              "time": 0.2333
+            }
+          ]
+        },
+        "bone": {
+          "scale": [
+            {
+              "x": -1
+            }
+          ]
+        }
+      }
+    },
+    "3": {
+      "slots": {
+        "thunder_1": {
+          "attachment": [
+            {
+              "name": "D4/thunder_3"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "head": {
+          "translate": [
+            {},
+            {
+              "time": 0.0667,
+              "x": -2.57,
+              "y": 1.48
+            },
+            {
+              "time": 0.1667,
+              "x": 0.47,
+              "y": -0.27
+            },
+            {
+              "time": 0.2333
+            }
+          ],
+          "scale": [
+            {
+              "x": -1,
+              "y": -1
+            }
+          ]
+        },
+        "bone": {
+          "scale": [
+            {
+              "x": -1,
+              "y": -1
+            }
+          ]
+        }
+      }
+    },
+    "4": {
+      "slots": {
+        "thunder_1": {
+          "attachment": [
+            {
+              "name": "D4/thunder_3"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "head": {
+          "translate": [
+            {},
+            {
+              "time": 0.0667,
+              "x": -2.57,
+              "y": 1.48
+            },
+            {
+              "time": 0.1667,
+              "x": 0.47,
+              "y": -0.27
+            },
+            {
+              "time": 0.2333
+            }
+          ]
+        },
+        "bone": {
+          "scale": [
+            {
+              "x": -1
+            }
+          ]
+        }
+      }
+    },
+    "idle": {
+      "bones": {
+        "bone": {
+          "translate": [
+            {},
+            {
+              "time": 0.3333,
+              "y": -1.11
+            },
+            {
+              "time": 0.6667
+            }
+          ]
+        }
+      }
+    }
+  }
+}

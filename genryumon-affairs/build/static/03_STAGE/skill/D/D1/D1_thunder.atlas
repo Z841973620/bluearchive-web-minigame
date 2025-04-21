@@ -1,0 +1,16 @@
+D1_thunder.png
+size:86,86
+filter:Linear,Linear
+pma:true
+D1/thunder_1
+bounds:2,55,52,29
+offsets:14,33,76,77
+D1/thunder_3
+bounds:2,23,48,30
+offsets:4,36,76,77
+D1/thunder_body1
+bounds:56,47,28,37
+offsets:23,11,76,77
+shadow
+bounds:2,13,27,8
+offsets:1,1,29,10

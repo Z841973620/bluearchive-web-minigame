@@ -1,0 +1,18 @@
+{
+  "code": "0000",
+  "message": "SUCCESS",
+  "result": [
+    {
+      "n8RowId": 4194,
+      "strContentId": "BA_MENU_SnbEN",
+      "strNode": "/-1/",
+      "strSubject": "LIVIN’ ON SWEETS",
+      "strContents": "＜ LIVIN’ ON SWEETS ＞",
+      "dtPublicStart": null,
+      "dtPublicEnd": null,
+      "url": ".",
+      "blank": false,
+      "liveActive": true
+    }
+  ]
+}

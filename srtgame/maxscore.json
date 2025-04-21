@@ -1,0 +1,14 @@
+{
+    "meta": {
+        "v": "1",
+        "region": "CN",
+        "ok": true,
+        "err": {
+            "code": 0,
+            "msg": ""
+        }
+    },
+    "data": {
+        "maxscore": 0
+    }
+}

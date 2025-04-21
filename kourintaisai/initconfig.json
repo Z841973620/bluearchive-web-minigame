@@ -1,0 +1,15 @@
+{
+    "code": 0,
+    "data": {
+        "advrolescore": 10000,
+        "sumire": {
+            "pertimescore": 10,
+            "percoinscore": 20
+        },
+        "shiroko": {
+            "pertimescore": 20,
+            "percoinscore": 30
+        }
+    },
+    "msg": "ok"
+}

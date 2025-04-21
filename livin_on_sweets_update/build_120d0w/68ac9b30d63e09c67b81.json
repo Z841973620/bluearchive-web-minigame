@@ -1,0 +1,190 @@
+{
+  "frames": [
+    {
+      "filename": "game_cutscene_intro_1",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "game_cutscene_intro_2",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 420
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "game_cutscene_intro_3",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 840
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "game_cutscene_intro_4",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 1260
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "game_cutscene_intro_5",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 1680
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "game_cutscene_intro_6",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 2100
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "game_cutscene_intro_7",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 2520
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "game_cutscene_intro_8",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 2940
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "game_cutscene_intro_9",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 3360
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "game_cutscene_intro_10",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 3780
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "game_cutscene_intro_11",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 4200
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "game_cutscene_intro_12",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 4620
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "game_cutscene_intro_13",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 5040
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "game_cutscene_intro_14",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 5460
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  ],
+  "meta": {
+    "description": "Atlas generado con Atlas Packer Gamma V2",
+    "web": "https://gammafp.github.io/atlas-packer-phaser/"
+  }
+}

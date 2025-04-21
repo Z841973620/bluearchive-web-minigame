@@ -1,0 +1,17 @@
+{
+  "code": "0000",
+  "message": "SUCCESS",
+  "result": [
+    {
+      "n8RowId": 4068,
+      "strContentId": "BA_ETC_Events2410Minigame",
+      "strNode": "/3/",
+      "strSubject": "페이지 공개",
+      "strContents": "",
+      "dtPublicStart": null,
+      "dtPublicEnd": null,
+      "url": null,
+      "openPage": true
+    }
+  ]
+}

@@ -1,0 +1,1225 @@
+{
+  "skeleton": {
+    "hash": "Sy38pJGqKRs",
+    "spine": "4.2.39",
+    "x": -82.41,
+    "y": -30.72,
+    "width": 164.81,
+    "height": 243.58,
+    "images": "./image/D3/",
+    "audio": "./audio"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "scaleX": 2,
+      "scaleY": 2
+    },
+    {
+      "name": "world",
+      "parent": "root",
+      "x": 1.27
+    },
+    {
+      "name": "makoto2",
+      "parent": "world",
+      "x": -9.5,
+      "y": 35.93
+    },
+    {
+      "name": "makoto3",
+      "parent": "world",
+      "x": 4.5,
+      "y": 36.93
+    },
+    {
+      "name": "makoto4",
+      "parent": "world",
+      "x": -13,
+      "y": 39.43
+    },
+    {
+      "name": "makoto5",
+      "parent": "world",
+      "x": 4.5,
+      "y": 44.43
+    },
+    {
+      "name": "makoto6",
+      "parent": "world",
+      "x": -10,
+      "y": 46.93
+    },
+    {
+      "name": "makoto7",
+      "parent": "world",
+      "x": -8,
+      "y": 53.43
+    },
+    {
+      "name": "makoto8",
+      "parent": "world",
+      "x": 9,
+      "y": 49.93
+    },
+    {
+      "name": "makoto9",
+      "parent": "world",
+      "x": 1,
+      "y": 71.43
+    },
+    {
+      "name": "makoto10",
+      "parent": "world",
+      "x": -12.5,
+      "y": 62.43
+    },
+    {
+      "name": "makoto11",
+      "parent": "world",
+      "x": -9.5,
+      "y": 74.93
+    },
+    {
+      "name": "makoto12",
+      "parent": "world",
+      "x": -12,
+      "y": 82.93
+    },
+    {
+      "name": "makoto13",
+      "parent": "world",
+      "x": 1,
+      "y": 81.93
+    },
+    {
+      "name": "makoto14",
+      "parent": "world",
+      "x": -17.5,
+      "y": 89.93
+    },
+    {
+      "name": "shadow",
+      "parent": "root",
+      "y": -4.13
+    }
+  ],
+  "slots": [
+    {
+      "name": "shadow",
+      "bone": "shadow",
+      "attachment": "shadow",
+      "blend": "multiply"
+    },
+    {
+      "name": "makoto1",
+      "bone": "world",
+      "attachment": "makoto1"
+    },
+    {
+      "name": "makoto2",
+      "bone": "makoto2",
+      "attachment": "makoto2"
+    },
+    {
+      "name": "makoto3",
+      "bone": "makoto3",
+      "attachment": "makoto3"
+    },
+    {
+      "name": "makoto4",
+      "bone": "makoto4",
+      "attachment": "makoto4"
+    },
+    {
+      "name": "makoto5",
+      "bone": "makoto5",
+      "attachment": "makoto5"
+    },
+    {
+      "name": "makoto6",
+      "bone": "makoto6",
+      "attachment": "makoto6"
+    },
+    {
+      "name": "makoto7",
+      "bone": "makoto7",
+      "attachment": "makoto7"
+    },
+    {
+      "name": "makoto8",
+      "bone": "makoto8",
+      "attachment": "makoto8"
+    },
+    {
+      "name": "makoto9",
+      "bone": "makoto9",
+      "attachment": "makoto9"
+    },
+    {
+      "name": "makoto10",
+      "bone": "makoto10",
+      "attachment": "makoto10"
+    },
+    {
+      "name": "makoto11",
+      "bone": "makoto11",
+      "attachment": "makoto11"
+    },
+    {
+      "name": "makoto12",
+      "bone": "makoto12",
+      "attachment": "makoto12"
+    },
+    {
+      "name": "makoto13",
+      "bone": "makoto13",
+      "attachment": "makoto13"
+    },
+    {
+      "name": "makoto14",
+      "bone": "makoto14",
+      "attachment": "makoto14"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "makoto1": {
+          "makoto1": {
+            "x": -2,
+            "y": 13.93,
+            "width": 54,
+            "height": 47
+          }
+        },
+        "makoto2": {
+          "makoto2": {
+            "width": 21,
+            "height": 15
+          }
+        },
+        "makoto3": {
+          "makoto3": {
+            "width": 19,
+            "height": 17
+          }
+        },
+        "makoto4": {
+          "makoto4": {
+            "width": 26,
+            "height": 14
+          }
+        },
+        "makoto5": {
+          "makoto5": {
+            "width": 29,
+            "height": 26
+          }
+        },
+        "makoto6": {
+          "makoto6": {
+            "width": 22,
+            "height": 19
+          }
+        },
+        "makoto7": {
+          "makoto7": {
+            "width": 14,
+            "height": 10
+          }
+        },
+        "makoto8": {
+          "makoto8": {
+            "width": 42,
+            "height": 41
+          }
+        },
+        "makoto9": {
+          "makoto9": {
+            "width": 22,
+            "height": 24
+          }
+        },
+        "makoto10": {
+          "makoto10": {
+            "width": 21,
+            "height": 38
+          }
+        },
+        "makoto11": {
+          "makoto11": {
+            "width": 25,
+            "height": 23
+          }
+        },
+        "makoto12": {
+          "makoto12": {
+            "width": 26,
+            "height": 19
+          }
+        },
+        "makoto13": {
+          "makoto13": {
+            "width": 44,
+            "height": 49
+          }
+        },
+        "makoto14": {
+          "makoto14": {
+            "width": 25,
+            "height": 33
+          }
+        },
+        "shadow": {
+          "shadow": {
+            "scaleX": 2.8416,
+            "scaleY": 2.2458,
+            "width": 29,
+            "height": 10
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "0_set": {
+      "slots": {
+        "makoto1": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "makoto2": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "makoto3": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "makoto4": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "makoto5": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "makoto6": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "makoto7": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "makoto8": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "makoto9": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "makoto10": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "makoto11": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "makoto12": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "makoto13": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "makoto14": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "shadow": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "world": {
+          "translate": [
+            {
+              "y": 149.04,
+              "curve": [
+                0.056,
+                0,
+                0.111,
+                0,
+                0.082,
+                149.33,
+                0.167,
+                0
+              ]
+            },
+            {
+              "time": 0.1667
+            }
+          ],
+          "scale": [
+            {},
+            {
+              "time": 0.1667,
+              "x": 0.856,
+              "y": 1.195
+            },
+            {
+              "time": 0.2333,
+              "x": 1.197,
+              "y": 0.851
+            },
+            {
+              "time": 0.3
+            }
+          ]
+        },
+        "shadow": {
+          "scale": [
+            {
+              "x": 0.168,
+              "y": 0.168
+            },
+            {
+              "time": 0.2333,
+              "x": 1.1,
+              "y": 1.1
+            },
+            {
+              "time": 0.3
+            }
+          ]
+        }
+      }
+    },
+    "1_idle": {},
+    "2_Destroy": {
+      "slots": {
+        "makoto1": {
+          "rgba": [
+            {
+              "time": 1.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "makoto2": {
+          "rgba": [
+            {
+              "time": 1.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "makoto3": {
+          "rgba": [
+            {
+              "time": 1.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "makoto4": {
+          "rgba": [
+            {
+              "time": 1.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "makoto5": {
+          "rgba": [
+            {
+              "time": 1.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "makoto6": {
+          "rgba": [
+            {
+              "time": 1.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "makoto7": {
+          "rgba": [
+            {
+              "time": 1.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "makoto8": {
+          "rgba": [
+            {
+              "time": 1.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "makoto9": {
+          "rgba": [
+            {
+              "time": 1.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "makoto10": {
+          "rgba": [
+            {
+              "time": 1.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "makoto11": {
+          "rgba": [
+            {
+              "time": 1.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "makoto12": {
+          "rgba": [
+            {
+              "time": 1.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "makoto13": {
+          "rgba": [
+            {
+              "time": 1.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "makoto14": {
+          "rgba": [
+            {
+              "time": 1.3333,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "shadow": {
+          "rgba": [
+            {
+              "time": 1,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "world": {
+          "scale": [
+            {
+              "x": 1.132,
+              "y": 0.896
+            },
+            {
+              "time": 0.1667,
+              "y": 1.111
+            },
+            {
+              "time": 0.3333,
+              "x": 1.132,
+              "y": 0.896
+            }
+          ]
+        },
+        "makoto2": {
+          "rotate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                16.08
+              ]
+            },
+            {
+              "time": 1,
+              "value": 20.64
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                -1.19,
+                1,
+                0,
+                0.967,
+                -5.11
+              ]
+            },
+            {
+              "time": 1,
+              "x": -1.53,
+              "y": -6.57
+            }
+          ]
+        },
+        "makoto3": {
+          "rotate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                -28.32
+              ]
+            },
+            {
+              "time": 1,
+              "value": -36.37
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                10.96,
+                1,
+                0,
+                0.967,
+                -24.97
+              ]
+            },
+            {
+              "time": 1,
+              "x": 14.07,
+              "y": -32.07
+            }
+          ]
+        },
+        "makoto4": {
+          "rotate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                35.8
+              ]
+            },
+            {
+              "time": 1,
+              "value": 45.98
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                -18.82,
+                1,
+                0,
+                0.967,
+                -40.91
+              ]
+            },
+            {
+              "time": 1,
+              "x": -24.17,
+              "y": -52.54
+            }
+          ]
+        },
+        "makoto5": {
+          "rotate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                -91
+              ]
+            },
+            {
+              "time": 1,
+              "value": -116.86
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                19.54,
+                1,
+                0,
+                0.967,
+                -51.75
+              ]
+            },
+            {
+              "time": 1,
+              "x": 25.09,
+              "y": -66.45
+            }
+          ]
+        },
+        "makoto6": {
+          "rotate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                92.34
+              ]
+            },
+            {
+              "time": 1,
+              "value": 118.58
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                -14.77,
+                1,
+                0,
+                0.967,
+                -27.38
+              ]
+            },
+            {
+              "time": 1,
+              "x": -18.97,
+              "y": -35.16
+            }
+          ]
+        },
+        "makoto7": {
+          "rotate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                146.45
+              ]
+            },
+            {
+              "time": 1,
+              "value": 188.07
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                -23.59,
+                1,
+                0,
+                0.967,
+                -57.76
+              ]
+            },
+            {
+              "time": 1,
+              "x": -30.29,
+              "y": -74.18
+            }
+          ]
+        },
+        "makoto8": {
+          "rotate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                -95.01
+              ]
+            },
+            {
+              "time": 1,
+              "value": -122.01
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                19.77,
+                1,
+                0,
+                0.967,
+                -34.9
+              ]
+            },
+            {
+              "time": 1,
+              "x": 25.39,
+              "y": -44.82
+            }
+          ]
+        },
+        "makoto9": {
+          "rotate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                86.65
+              ]
+            },
+            {
+              "time": 1,
+              "value": 111.27
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                0.498,
+                0,
+                0.996,
+                0,
+                1,
+                0,
+                0.967,
+                -63.48
+              ]
+            },
+            {
+              "time": 1,
+              "y": -81.52
+            }
+          ]
+        },
+        "makoto10": {
+          "rotate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                109.49
+              ]
+            },
+            {
+              "time": 1,
+              "value": 140.61
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                -14.3,
+                1,
+                0,
+                0.967,
+                -34.3
+              ]
+            },
+            {
+              "time": 1,
+              "x": -18.36,
+              "y": -44.04
+            }
+          ]
+        },
+        "makoto11": {
+          "rotate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                -42.89
+              ]
+            },
+            {
+              "time": 1,
+              "value": -55.08
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                0.498,
+                0,
+                0.996,
+                0,
+                1,
+                0,
+                0.967,
+                -72.2
+              ]
+            },
+            {
+              "time": 1,
+              "y": -92.72
+            }
+          ]
+        },
+        "makoto12": {
+          "rotate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                98.11
+              ]
+            },
+            {
+              "time": 1,
+              "value": 125.99
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                -11.2,
+                1,
+                0,
+                0.967,
+                -71.3
+              ]
+            },
+            {
+              "time": 1,
+              "x": -14.38,
+              "y": -91.56
+            }
+          ]
+        },
+        "makoto13": {
+          "rotate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                -147.52
+              ]
+            },
+            {
+              "time": 1,
+              "value": -189.45
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                24.78,
+                1,
+                0,
+                0.967,
+                -67.69
+              ]
+            },
+            {
+              "time": 1,
+              "x": 31.82,
+              "y": -86.93
+            }
+          ]
+        },
+        "makoto14": {
+          "rotate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                67.23
+              ]
+            },
+            {
+              "time": 1,
+              "value": 86.34
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.3333,
+              "curve": [
+                1,
+                0,
+                0.967,
+                -30.02,
+                1,
+                0,
+                0.967,
+                -73.1
+              ]
+            },
+            {
+              "time": 1,
+              "x": -38.55,
+              "y": -93.88
+            }
+          ]
+        },
+        "shadow": {
+          "scale": [
+            {
+              "time": 0.6
+            },
+            {
+              "time": 1,
+              "x": 1.61,
+              "y": 2.118
+            }
+          ]
+        }
+      },
+      "drawOrder": [
+        {
+          "time": 0.6,
+          "offsets": [
+            {
+              "slot": "makoto6",
+              "offset": -6
+            },
+            {
+              "slot": "makoto10",
+              "offset": -9
+            },
+            {
+              "slot": "makoto13",
+              "offset": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

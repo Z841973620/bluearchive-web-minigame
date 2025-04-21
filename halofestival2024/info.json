@@ -1,0 +1,17 @@
+{
+    "meta": {
+        "v": "1",
+        "region": "CN",
+        "ok": true,
+        "err": {
+            "code": 0,
+            "msg": ""
+        }
+    },
+    "data": {
+        "todayFirstEnter": false,
+        "alloyCnt": 0,
+        "repairEnable": false,
+        "newsSendAward": true
+    }
+}

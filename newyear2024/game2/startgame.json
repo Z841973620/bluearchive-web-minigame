@@ -1,0 +1,15 @@
+{
+    "meta": {
+        "v": "1",
+        "region": "CN",
+        "ok": true,
+        "err": {
+            "code": 0,
+            "msg": ""
+        }
+    },
+    "data": {
+        "t": 1707902797295,
+        "x": "1ddf6cc6bb902a187582bdb620e465a61a474cd5ff5fff10"
+    }
+}

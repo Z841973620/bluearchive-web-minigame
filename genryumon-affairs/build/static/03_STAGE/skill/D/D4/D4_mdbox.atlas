@@ -1,0 +1,7 @@
+D4_mdbox.png
+size:32,32
+filter:Linear,Linear
+pma:true
+mdbox
+bounds:2,4,28,26
+offsets:2,2,32,32

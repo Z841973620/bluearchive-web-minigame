@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8" />
+
+  <title>《蔚蓝档案》——狐坂若藻的甜蜜追逐——COINRUN 情人节ver</title>
+
+  <meta name="viewport"
+    content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1,minimal-ui=true" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="full-screen" content="yes" />
+  <meta name="screen-orientation" content="portrait" />
+  <meta name="x5-fullscreen" content="true" />
+  <meta name="360-fullscreen" content="true" />
+
+  <meta name="renderer" content="webkit" />
+  <meta name="force-rendering" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <meta name="Keywords" content="蔚蓝档案半周年小游戏" />
+  <meta name="description" content="蔚蓝档案半周年小游戏" />
+  <meta property="og:url" content="https://bluearchive-cn.com/webview/newyear2024/game2" />
+  <meta property="og:title" content="《蔚蓝档案》——狐坂若藻的甜蜜追逐——COINRUN 情人节ver" />
+  <meta property="og:description" content="蔚蓝档案半周年小游戏" />
+  <meta property="og:image" content="./favicon.png">
+  <meta property="og:locale" content="zh_CN" />
+
+  <link rel="stylesheet" type="text/css" href="style.6990a.css" />
+  <link rel="icon" href="./favicon.png" />
+  <style>
+    .custom-wrap {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #GameDiv {
+      width: 94% !important;
+      height: auto !important;
+      max-width: 1792px;
+      max-height: 828px;
+      min-width: 896px;
+      min-height: 414px;
+      aspect-ratio: 1792 / 828;
+    }
+  </style>
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          './gtm.js'; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-55K5P45');</script>
+  <!-- End Google Tag Manager -->
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55K5P45" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="custom-wrap">
+    <div id="GameDiv" style="width: 1792px; height: 828px;">
+      <div id="Cocos3dGameContainer">
+        <canvas id="GameCanvas" width="1792" height="828"></canvas>
+      </div>
+      <div id="splash">
+        <div class="progress-bar stripes">
+          <span style="width: 0%"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Polyfills bundle. -->
+<script src="src/polyfills.bundle.5adbf.js" charset="utf-8"> </script>
+
+<!-- SystemJS support. -->
+<script src="src/system.bundle.6de80.js" charset="utf-8"> </script>
+
+<!-- Import map -->
+<script src="src/import-map.0efe8.json" type="systemjs-importmap" charset="utf-8"> </script>
+
+<script>
+    System.import('./index.31ddc.js').catch(function(err) { console.error(err); })
+</script>
+<script type="text/javascript">
+  (function () {
+    var splash = document.getElementById("splash");
+    splash.style.display = "block";
+  })();
+</script>
+</body>
+
+</html>

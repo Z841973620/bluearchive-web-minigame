@@ -1,0 +1,20 @@
+{
+  "Server": "hk",
+  "Uid": 0,
+  "Nickname": " ",
+  "Level": 90,
+  "LastModified": "2024-10-22T18:21:08.517937+00:00",
+  "Created": "2024-10-22T16:11:25.8357089+00:00",
+  "TodayStart": "2024-10-22T12:00:00+09:00",
+  "TodayEnd": "2024-10-23T11:59:59.9999999+09:00",
+  "SongEnd": "2024-10-22T17:47:02.843+09:00",
+  "Rewards": [
+    {
+      "strRewardCode": "mission1",
+      "dtCreate": "2024-10-22T16:28:13.747",
+      "isMissionCompleted": true,
+      "isTodayRewardReceived": true,
+      "isActiveReward": false
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"meta":{"v":"1","region":"CN","ok":true,"err":{"code":0,"msg":""}},"data":{"task":[{"taskId":"play","status":1},{"taskId":"order","status":1,"cnt":5,"target":5},{"taskId":"score","status":1,"cnt":5000,"target":5000}],"awardAble":false}}

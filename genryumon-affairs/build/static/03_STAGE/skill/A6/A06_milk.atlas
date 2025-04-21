@@ -1,0 +1,13 @@
+A06_milk.png
+size:108,108
+filter:Linear,Linear
+pma:true
+milk
+bounds:2,13,70,93
+offsets:28,16,120,120
+small
+bounds:2,3,8,8
+small2
+bounds:74,60,12,12
+small3
+bounds:74,74,32,32

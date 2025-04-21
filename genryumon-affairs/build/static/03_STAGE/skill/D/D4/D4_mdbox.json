@@ -1,0 +1,98 @@
+{
+  "skeleton": {
+    "hash": "DMUMYz4JIdE",
+    "spine": "4.2.39",
+    "x": -16,
+    "y": -8.27,
+    "width": 32,
+    "height": 32,
+    "images": "./image/D4/",
+    "audio": "./audio"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "mdbox",
+      "parent": "root",
+      "y": 7.73
+    }
+  ],
+  "slots": [
+    {
+      "name": "mdbox",
+      "bone": "mdbox",
+      "attachment": "mdbox"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "mdbox": {
+          "mdbox": {
+            "width": 32,
+            "height": 32
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "set": {
+      "slots": {
+        "mdbox": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3333,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "mdbox": {
+          "translate": [
+            {
+              "y": 181.47,
+              "curve": [
+                0.111,
+                0,
+                0.222,
+                0,
+                0.165,
+                181.81,
+                0.333,
+                0
+              ]
+            },
+            {
+              "time": 0.3333
+            }
+          ],
+          "scale": [
+            {},
+            {
+              "time": 0.3,
+              "x": 0.754,
+              "y": 1.523
+            },
+            {
+              "time": 0.3333,
+              "x": 1.2,
+              "y": 0.8
+            },
+            {
+              "time": 0.3667
+            }
+          ]
+        }
+      }
+    },
+    "wait": {}
+  }
+}

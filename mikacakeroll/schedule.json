@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "v": "1",
+        "region": "CN",
+        "ok": true,
+        "err": {
+            "code": 0,
+            "msg": ""
+        }
+    },
+    "data": {
+        "schedule": {
+            "catalog": {
+                "lock": 14,
+                "total": 14
+            },
+            "award": {
+                "lock": 7,
+                "total": 7
+            }
+        }
+    }
+}

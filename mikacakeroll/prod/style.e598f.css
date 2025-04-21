@@ -1,0 +1,175 @@
+html {
+  -ms-touch-action: none;
+}
+
+body,
+canvas,
+div {
+  display: block;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* Remove spin of input type number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0;
+  /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  margin: 0;
+
+  cursor: default;
+  color: #000;
+  background-color: #fff;
+
+  text-align: center;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+canvas {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#GameDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  background-color: #fff;
+}
+
+#Cocos3dGameContainer,
+#GameCanvas {
+  width: 100%;
+  height: 100%;
+}
+
+#splash {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./loading/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#splash::after {
+  content: "";
+  width: 100%;
+  height: auto;
+  min-height: 22px;
+  aspect-ratio: 2200 / 46;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(./loading/top.png);
+  background-origin: padding-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 10;
+}
+
+.progress-container {
+  position: relative;
+  margin-top: 22vw;
+  min-width: 240px;
+  width: 45vw;
+  height: 36px;
+  z-index: 20;
+}
+
+.progress-logo {
+  position: absolute;
+  bottom: 65%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+}
+
+.progress-loading {
+  position: absolute;
+  bottom: -2vh;
+  left: 50%;
+  transform: translate(-48%, 100%);
+  display: block;
+  width: 40%;
+  height: auto;
+  object-fit: contain;
+}
+
+.progress-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: fit-content;
+}
+
+.progress-track {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.progress-bar {
+  position: absolute;
+  left: 1.25%;
+  top: 47.5%;
+  transform: translateY(-50%);
+  height: 70%;
+  width: 97.75%;
+}
+
+.progress-rate {
+  display: block;
+  height: 100%;
+  background-image: url(./loading/bar.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  transition: width 0.4s ease-in-out;
+}

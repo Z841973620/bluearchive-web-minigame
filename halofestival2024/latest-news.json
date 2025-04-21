@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "v": "1",
+        "region": "CN",
+        "ok": true,
+        "err": {
+            "code": 0,
+            "msg": ""
+        }
+    },
+    "data": {
+        "news": {
+            "id": 94,
+            "title": "汗水淋漓的超绝美少女的通知",
+            "summary": "特报",
+            "content": "<color>连太阳都要嫉妒的超绝美少女有消</color><color>息要传达给小千等人。</color><br /><color>因为天气太热了，所以我决定放弃</color><color>参赛，接下来就交给你们了。</color><br /><color>我会在凉爽的房间里为各位加油，</color><color>所以请努力吧。</color><br />",
+            "role": "千寻"
+        }
+    }
+}

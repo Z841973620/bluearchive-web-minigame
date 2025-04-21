@@ -1,0 +1,18 @@
+{
+    "code": "0000",
+    "message": "SUCCESS",
+    "result": [
+        {
+            "n8RowId": 4798,
+            "strContentId": "BA_MENU_SnbZH",
+            "strNode": "/-3/",
+            "strSubject": "<현룡본색>",
+            "strContents": "「玄龍本色」",
+            "dtPublicStart": null,
+            "dtPublicEnd": null,
+            "url": "/genryumon-affairs",
+            "blank": false,
+            "liveActive": true
+        }
+    ]
+}

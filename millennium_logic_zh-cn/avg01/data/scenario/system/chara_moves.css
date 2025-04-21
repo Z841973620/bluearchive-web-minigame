@@ -1,0 +1,76 @@
+.bukatsu {
+    font-size: 20px;
+    color:rgb(148,203,249);
+   }
+   
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: none;
+}
+  
+/* キーフレームアニメーション定義 */
+/* haloアニメーション-----------------------------------　*/ 
+@keyframes haloAnimation {
+        0%,100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-6px);
+        }
+}
+
+/* シルエットから出現-----------------------------------　*/ 
+@keyframes appear_from_silhouette {
+  0%, 10% {
+    -webkit-filter: brightness(0%);
+    filter: brightness(0%);
+  }
+  90%, 100% {
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+  }
+}
+
+/* シルエットで出現 */
+@keyframes appear_by_silhouette {
+  0%, 100% {
+    -webkit-filter: brightness(0%);
+    filter: brightness(0%);
+  }
+}
+
+/* シルエットから消える-----------------------------------　*/  
+@keyframes hide_in_silhouette {
+  25%, 50% {
+    -webkit-filter: brightness(0%) opacity(100%);
+    filter: brightness(0%) opacity(100%);
+  }
+  90% {
+    -webkit-filter: brightness(0%) opacity(30%);
+    filter: brightness(0%) opacity(30%);
+  }
+  95% {
+    -webkit-filter: brightness(0%) opacity(8%);
+    filter: brightness(0%) opacity(8%);
+  }
+  100% {
+    -webkit-filter: brightness(0%) opacity(0%);
+    filter: brightness(0%) opacity(0%);
+  }
+}
+
+/* ジャンプ-----------------------------------　*/ 
+@keyframes jumpAnimation {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}

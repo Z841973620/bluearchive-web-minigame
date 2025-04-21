@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>《蔚蓝档案》芹香·夏日·柴关拉面摊</title>
+
+  <!--http://www.html5rocks.com/en/mobile/mobifying/-->
+  <meta name="viewport"
+    content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1,minimal-ui=true,viewport-fit=cover" />
+
+  <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- force webkit on 360 -->
+  <meta name="renderer" content="webkit" />
+  <meta name="force-rendering" content="webkit" />
+  <!-- force edge on IE -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- force full screen on some browser -->
+  <meta name="full-screen" content="yes" />
+  <meta name="x5-fullscreen" content="true" />
+  <meta name="360-fullscreen" content="true" />
+
+  <!--fix fireball/issues/3568 -->
+  <!--<meta name="browsermode" content="application">-->
+  <meta name="x5-page-mode" content="app">
+
+  <!--<link rel="apple-touch-icon" href=".png" />-->
+  <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+
+  <meta name="Keywords" content="《蔚蓝档案》芹香·夏日·柴关拉面摊" />
+  <meta name="description" content="完成限时网页活动小游戏，获得青辉石及游戏养成素材！" />
+  <meta property="og:title" content="《蔚蓝档案》芹香·夏日·柴关拉面摊" />
+  <meta property="og:description" content="完成限时网页活动小游戏，获得青辉石及游戏养成素材！" />
+  <meta property="og:image" content="./favicon.png">
+  <meta property="og:locale" content="zh_CN" />
+  <link rel="icon" href="./favicon.png" />
+
+  <link rel="stylesheet" type="text/css" href="./style.e598f.css" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="./gtag.js?id=G-EXSE9ZVYTH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-EXSE9ZVYTH');
+  </script>
+</head>
+
+<body>
+  <div id="GameDiv">
+    <div id="Cocos3dGameContainer">
+      <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+    </div>
+  </div>
+  <div id="splash">
+    <img class="progress-img" src="./loading.png" alt="loading...">
+    <span class="progress-text">汤底熬制中...</span>
+    <div class="progress-bar">
+      <span class="progress-rate" style="width: 0%">
+        <span class="progress-tip"></span>
+      </span>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    (function () {
+      var splash = document.getElementById("splash");
+      splash.style.display = "flex";
+    })();
+  </script>
+  
+<!-- Polyfills bundle. -->
+<script src="./src/polyfills.bundle.5adbf.js" charset="utf-8"> </script>
+
+<!-- SystemJS support. -->
+<script src="./src/system.bundle.692e9.js" charset="utf-8"> </script>
+
+<!-- Import map -->
+<script src="./src/import-map.32f24.json" type="systemjs-importmap" charset="utf-8"> </script>
+
+<script>
+    System.import('./index.ddce5.js').catch(function(err) { console.error(err); })
+</script>
+
+</body>
+
+</html>

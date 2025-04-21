@@ -1,0 +1,680 @@
+{
+    "meta": {
+        "v": "1",
+        "region": "CN",
+        "ok": true,
+        "err": {
+            "code": 0,
+            "msg": ""
+        }
+    },
+    "data": {
+        "news": [
+            {
+                "id": 28,
+                "title": "晄轮大会执行委员会",
+                "summary": "通知",
+                "content": "<color>今年的晄轮大会圆满落下了帷幕。</color><color>这一路经历了许多艰难险阻，但只</color><color>要大家开心，这些困难都不值得一</color><color>提。执行委员会全体人员在此向大</color><color>家表示衷心的感谢。我们下次再见</color><color>！</color><br />",
+                "role": "优香，玛丽，莲见，亚子，诺亚"
+            },
+            {
+                "id": 30,
+                "title": "抓尾巴成绩",
+                "summary": "比赛速报",
+                "content": "<color>在白热化的“抓尾巴”比赛中，“</color><color>花冈柚子”选手持续藏身于地图的</color><color>角落中，她的精彩表现使千禧年科</color><color>技学院取得了胜利!</color><br />",
+                "role": "爱丽丝，桃，绿"
+            },
+            {
+                "id": 32,
+                "title": "崔尼蒂图书管理部 2",
+                "summary": "通知",
+                "content": "<color>托各位的福，《晄轮大会指南手册</color><color>》已全部售出！ 感谢各位购买。</color><color>之后我们会与千禧年的各位商讨是</color><color>否发售该手册的电子版，敬请期待</color><color>后续报道。</color><br /><color>（负责人：圆堂志美子）</color><br />",
+                "role": "忧"
+            },
+            {
+                "id": 33,
+                "title": "失物招领后续",
+                "summary": "瓦尔基丽",
+                "content": "<color>“天见和香”同学和“间宵时雨”</color><color>同学捡到并归还了此前的广播中提</color><color>到的失物钱包！ 谢谢你们！ </color><br /><color>“赤司纯子”同学，请您在方便时</color><color>到本部来一趟！</color><br /><color>(负责人：中务桐乃)</color><br />",
+                "role": " "
+            },
+            {
+                "id": 35,
+                "title": "接力赛成绩",
+                "summary": "比赛速报",
+                "content": "<color>歌赫娜学院的选手在接力棒传到最</color><color>后一棒时跌倒，情况非常严峻。但</color><color>出人意料的是，该学院的“赤司纯</color><color>子”选手还是第一个到达了终点！</color><br />",
+                "role": "明里"
+            },
+            {
+                "id": 37,
+                "title": "骑马打仗采访",
+                "summary": "比赛速报",
+                "content": "<color>我们对在骑马打仗中取得第一名的</color><color>百鬼夜行队进行了采访。</color><br /><color>和乐千世：“我们胜利了吗～？”</color><color> </color><br /><color>桑上果穗：“那可真是一场既严肃</color><color>又精彩的比赛啊。”</color><br /><color>天地尼娅：“果穗你根本就没有参</color><color>加吧？”</color><br />",
+                "role": "泉奈"
+            },
+            {
+                "id": 38,
+                "title": "寻人启事",
+                "summary": "通知",
+                "content": "<color>如果有人看到了歌赫娜学院风纪委</color><color>员长“空崎日奈”，请与同属该学</color><color>院风纪委员会的天雨亚子联系。</color><br />",
+                "role": "亚子"
+            },
+            {
+                "id": 40,
+                "title": "骑马打仗相关消息",
+                "summary": "比赛速报",
+                "content": "<color>此外，需要补充说明的是，在此前</color><color>的骑马打仗中使用的无人机，其主</color><color>要设计者是来自千禧年科技学院真</color><color>理社的“小钩晴”选手。</color><br /><color>在此我想介绍一下这位选手。有众</color><color>多选手都参与到了本次大赛的运营</color><color>工作中，而小钩晴在设计穿梭于运</color><color>动场的各种无人机方面起到了核心</color><color>作用。</color><br /><color>让我们为此前介绍的表现出色的选</color><color>手们和“小钩晴”选手一同送上掌</color><color>声。</color><br />",
+                "role": "千寻"
+            },
+            {
+                "id": 41,
+                "title": "骑马打仗比赛结果",
+                "summary": "比赛速报",
+                "content": "<color>由“久田泉奈”选手、“和乐千世</color><color>”选手、“大野月咏”选手、“勇</color><color>美枫”选手四人组成的百鬼夜行队</color><color>取得胜利！这四名选手在比赛中展</color><color>现出的欢快笑容给大家留下了深刻</color><color>的印象。</color><br />",
+                "role": "莲见"
+            },
+            {
+                "id": 43,
+                "title": "执行委员会的突击点评",
+                "summary": "美食情报",
+                "content": "<color>大家好，我是执行委员会的羽川莲</color><color>见。美食评论似乎也是执行委员会</color><color>该做的事情，所以我现在来到了摊</color><color>贩区，相当热闹嘛。</color><br /><color>哎呀，这是“温泉馒头”嘛。一般</color><color>我是不吃点心的，不过来都来了，</color><color>啊呜。这，这也太好吃了。也许是</color><color>因为被外皮裹着，里面的馅料依旧</color><color>温热，一股湿润而甘甜的味道在口</color><color>中蔓延开来。虽然很甜，却甜而不</color><color>腻，让人吃了还想吃。</color><br /><color>（在这之后，由于莲见选手一直开</color><color>心地吃个不停，报道就此结束。）</color><br />",
+                "role": " "
+            },
+            {
+                "id": 45,
+                "title": "少女忍法帖小满亲",
+                "summary": "八卦",
+                "content": "<color>播出换装赛跑的频道“少女忍法帖</color><color>小满亲”已被暂时封禁。</color><br /><color>据说该频道原本的画面是伪装成树</color><color>木奔跑的“大野月咏”选手，但之</color><color>后不知为何，画面中出现了一些不</color><color>好的东西。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 46,
+                "title": "大胃王大赛相关消息",
+                "summary": "比赛速报",
+                "content": "<color>大胃王大赛中的所有项目都已结束</color><color>。</color><br /><color>此外，SRT特种学院RABBI</color><color>T小队的成员接收了剩余食材，执</color><color>行委员会在此向其表示诚挚的感谢</color><color>。</color><br />",
+                "role": "宫子，咲，萌绘，美游"
+            },
+            {
+                "id": 48,
+                "title": "看到忍者的话请联系我",
+                "summary": "通知",
+                "content": "<color>刚才在摊贩区中央施展“一闪一闪</color><color>火焰术”的学员请注意。</color><br /><color>我们有事与您确认，请您前往执行</color><color>委员会总部。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 50,
+                "title": "要来点儿冰淇淋吗？",
+                "summary": "美食情报",
+                "content": "<color>现在摊贩区的冰淇淋店很受欢迎。</color><br /><color>天气炎热，冰淇淋会受欢迎也不足</color><color>为奇，但据说美食研究会的“黑馆</color><color>晴奈”选手出现在了该摊位附近，</color><color>而她的出现似乎进一步提升了该摊</color><color>位的客流量。</color><br />",
+                "role": "纯子，明里，泉"
+            },
+            {
+                "id": 51,
+                "title": "跳大绳选手变动",
+                "summary": "通知",
+                "content": "<color>在梅花园的孩子们以及沙勒的要求</color><color>下，原定在跳绳比赛中负责摇绳工</color><color>作的山海经高等学院的“春原瞬”</color><color>选手将以跳绳运动员的身份参加比</color><color>赛。特此通知。</color><br />",
+                "role": "心奈"
+            },
+            {
+                "id": 52,
+                "title": "挖沙山",
+                "summary": "比赛速报",
+                "content": "<color>在挖沙山比赛中 ，歌赫娜队在歌</color><color>赫娜学院“天雨亚子”选手的出色</color><color>指挥下获得了胜利。</color><br /><color>现场负责人透露，她的指挥气势逼</color><color>人，令人胆战心惊。</color><br />",
+                "role": "千夏"
+            },
+            {
+                "id": 53,
+                "title": "答谢",
+                "summary": "通知",
+                "content": "<color>“佳代子”同学，非常感谢您制止</color><color>了运动场B入口前发生的争吵。</color><br /><color>当事人表示，当时太害怕所以就逃</color><color>跑了，但还是想向您表达谢意。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 55,
+                "title": "鬼追人 2",
+                "summary": "比赛速报",
+                "content": "<color>经确认，一直追踪“守月铃美”选</color><color>手的“宇泽玲纱”选手并未报名此</color><color>项比赛，因此我们决定重新开始这</color><color>次的比赛。</color><br /><color>并且，根据选手本人的强烈意愿，</color><color>她们将加入同一阵营重新开始比赛</color><color>。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 57,
+                "title": "鬼追人 1",
+                "summary": "比赛速报",
+                "content": "<color>歌赫娜学院的“爱清风香”选手成</color><color>为了鬼，虽然看似处于劣势，但她</color><color>用美食将对手引诱出来，取得了胜</color><color>利。</color><br />",
+                "role": "风香，晴奈"
+            },
+            {
+                "id": 59,
+                "title": "关于之前寻人启事的更正",
+                "summary": "通知",
+                "content": "<color>之前在全体广播中提到的山海经高</color><color>等学院的“春原心奈”同学并非走</color><color>失儿童，而是“在寻找走失儿童的</color><color>教官”。我们对此次误报深表歉意</color><color>。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 60,
+                "title": "横杆绕行 2",
+                "summary": "比赛速报",
+                "content": "<color>比赛开始前，“陆八魔爱露”选手</color><color>激情宣布：“这个项目我是无敌的</color><color>！”</color><br /><color>本以为她立了个Flag，但她与</color><color>“鬼方佳代子”选手、“浅黄睦月</color><color>”选手、“伊草春香”选手配合默</color><color>契，表现完美，创造出了最快记录</color><color>！</color><br />",
+                "role": "佳代子，睦月，春香"
+            },
+            {
+                "id": 62,
+                "title": "横杆绕行",
+                "summary": "比赛速报",
+                "content": "<color>比赛开始前，歌赫娜学院的“伊草</color><color>春香”选手找到千禧年的学员，请</color><color>她们“为了爱露大人通融一下”，</color><color>至今未归。因此接下来的横杆绕行</color><color>项目将推迟10分钟开始。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 63,
+                "title": "失物招领",
+                "summary": "通知",
+                "content": "<color>失物招领。</color><br /><color>刚刚我在路边摊区域捡到一条漂亮</color><color>的围巾。</color><br /><color>围巾的设计也非常精美，看得出来</color><color>失主很珍爱这条围巾。</color><br /><color>我已将这条围巾交给执行委员会，</color><color>如果您有相关的线索，请前往执行</color><color>委员会总部。</color><br /><color>我是拾取者铃美。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 65,
+                "title": "铅球",
+                "summary": "比赛速报",
+                "content": "<color>歌赫娜学院的“浅黄睦月”选手凭</color><color>借运用离心力的熟练动作轻松通过</color><color>了预选赛。</color><br />",
+                "role": "爱露"
+            },
+            {
+                "id": 67,
+                "title": "七囚人",
+                "summary": "瓦尔基丽",
+                "content": "<color>据称，有人在附近目击到了“七囚</color><color>人”中的“狐坂若藻”。</color><br /><color>瓦尔基丽警员学院正在处理该情况</color><color>，请大家多加注意。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 69,
+                "title": "团体体操",
+                "summary": "比赛速报",
+                "content": "<color>在“团队体操”项目中，获胜者将</color><color>获得赞助商提供的新甜品“Won</color><color>der 6000”。</color><br /><color>“甜点部”在该项目中展现了出色</color><color>的团队合作精神，最终赢得了比赛</color><color>。</color><br /><color>团队成员为以下四名选手：“栗村</color><color>爱理”选手、“伊原木好美”选手</color><color>、“杏山和纱”选手、“柚鸟夏”</color><color>选手。</color><br />",
+                "role": "玲纱"
+            },
+            {
+                "id": 70,
+                "title": "请小心窃听设备",
+                "summary": "通知",
+                "content": "<color>\"我们在会场附近发现了大量监听</color><color>设备，但经过调查，千禧年科技学</color><color>院已将其全部回收。</color><br /><color>此外，“音濑小玉”选手请注意。</color><color>“各务千寻”选手正在找您，请您</color><color>尽快与她联系。\"</color><br />",
+                "role": "千寻"
+            },
+            {
+                "id": 71,
+                "title": "镇压头盔团",
+                "summary": "瓦尔基丽",
+                "content": "<color>\"之前提到的闹事的头盔团已经被</color><color>镇压了。与此事相关的任何报酬或</color><color>慰问品都请送到生活安全局哦。</color><br /><color>（负责人：合欢垣吹雪）\"</color><br />",
+                "role": "桐乃"
+            },
+            {
+                "id": 73,
+                "title": "涂鸦战",
+                "summary": "比赛速报",
+                "content": "<color>在这项比拼谁能将阵地涂上更多颜</color><color>色的比赛中，“小涂真纪”选手在</color><color>对手阵地上不停奔波，看起来非常</color><color>开心。最终，她将对手的大部分阵</color><color>地都涂上了颜色，获得了胜利！ </color><br /><color>该选手获胜后，对手阵地从上空俯</color><color>瞰时展现出的艺术性也令人惊叹不</color><color>已。</color><br />",
+                "role": "真纪，晴"
+            },
+            {
+                "id": 74,
+                "title": "铁人三项赛果",
+                "summary": "比赛速报",
+                "content": "<color>最终，崔尼蒂综合学院的“剑先鹤</color><color>城”选手获得冠军！　</color><br /><color>虽然她之前给人一种水性不好的印</color><color>象，但也许她最近开展了一些水上</color><color>娱乐活动吧！　</color><br /><color>她展现了华丽的泳姿。剑先鹤城不</color><color>仅笑得非常开心，也向我们展现了</color><color>出色的身体素质！</color><br />",
+                "role": "真白，莲见"
+            },
+            {
+                "id": 78,
+                "title": "摊贩区“柴关拉面”特别分店",
+                "summary": "美食情报",
+                "content": "<color>很多店铺都在摊贩区设置了临时摊</color><color>位，但现最受欢迎的是“柴关拉面</color><color>特别分店”！ 阿拜多斯高等学院</color><color>“黑见芹香”正在店内帮忙，其服</color><color>务也大受欢迎。</color><br />",
+                "role": "白子，绫音，野宫，星野"
+            },
+            {
+                "id": 95,
+                "title": "铁人三项场中赛况 3",
+                "summary": "比赛速报",
+                "content": "<color>\"进入赛跑环节后，各位选手几乎</color><color>并驾齐驱！ </color><br /><color>最后获胜的会是哪位选手呢？！\"</color><br />",
+                "role": " "
+            },
+            {
+                "id": 79,
+                "title": "障碍跑 7",
+                "summary": "比赛速报",
+                "content": "<color>\"“风仓萌绘”选手将在接下来的</color><color>障碍跑中开始炸药安检。这是一项</color><color>临时决定，请大家稍等片刻。</color><br /><color>据说“风仓萌绘”选手是SRT特</color><color>种学院中对炸药最为了解的专家。</color><color>\"</color><br />",
+                "role": "咲"
+            },
+            {
+                "id": 80,
+                "title": "铁人三项场中赛况 2",
+                "summary": "比赛速报",
+                "content": "<color>阿拜多斯高等学院的“砂狼白子”</color><color>选手在骑行环节中换上了骑行服！</color><color> 比赛开始后，该选手一直以刷新</color><color>区段新纪录的速度前进，换装花费</color><color>的时间又是否会影响其最终成绩呢</color><color>？！</color><br />",
+                "role": "绫音，芹香"
+            },
+            {
+                "id": 81,
+                "title": "障碍跑 6",
+                "summary": "比赛速报",
+                "content": "<color>山海经高等学院的“春原心奈”选</color><color>手在障碍跑中，由于没能吃下她不</color><color>爱吃的胡萝卜，最终排名垫底。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 83,
+                "title": "对拉拉队的赞美",
+                "summary": "八卦",
+                "content": "<color>不管参赛选手来自哪里，崔尼蒂综</color><color>合学院的“朝颜花江”选手都会全</color><color>力为其加油助威。她可爱而充满活</color><color>力的身姿受到好评。</color><br />",
+                "role": "芹娜"
+            },
+            {
+                "id": 85,
+                "title": "铁人三项场中赛况 1",
+                "summary": "比赛速报",
+                "content": "<color>百鬼夜行联合学院的“久田泉奈”</color><color>选手在比赛中一直领先，却在游泳</color><color>环节中陷入苦战！</color><br />",
+                "role": " "
+            },
+            {
+                "id": 86,
+                "title": "障碍跑 5",
+                "summary": "比赛速报",
+                "content": "<color>本以为歌赫娜学院的“银镜伊织”</color><color>选手会以其出色的身体素质夺得不</color><color>错的名次，但她却在接近终点时被</color><color>一个显而易见的陷阱绊住，遗憾出</color><color>局。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 87,
+                "title": "障碍跑 4",
+                "summary": "比赛速报",
+                "content": "<color>在障碍跑中，歌赫娜学院的“浅黄</color><color>睦月”选手途中莫名变成了设置障</color><color>碍的一方。虽然该选手出局，但主</color><color>办方千禧年表示，该选手设置的障</color><color>碍非常值得体验，创意十分有趣，</color><color>并有意采纳这一方案。</color><br />",
+                "role": "佳代子"
+            },
+            {
+                "id": 89,
+                "title": "外传",
+                "summary": "美食情报",
+                "content": "<color>这条消息与摊贩区无关。据悉，“</color><color>十六夜野宫”选手正在运动场内分</color><color>发的“盐柠檬糖”口味极佳，广受</color><color>好评。</color><br /><color>分发点人山人海，但野宫选手本人</color><color>表示“还有很多很多哦～☆”。</color><br /><color>因此，如果您感兴趣，要不要去看</color><color>看呢？。</color><br />",
+                "role": "夏，爱理，好美，和纱"
+            },
+            {
+                "id": 93,
+                "title": "有关罢工的注意事项",
+                "summary": "通知",
+                "content": "<color>目前，在运动场外出现了一群举着</color><color>“周休四天”标语的罢工团体。我</color><color>们正在处理，请大家稍安勿躁。</color><br /><color>此外，“安守实梨”选手请注意。</color><color>有关此次罢工，我们有些事情需要</color><color>与您确认，如果您在运动场内，请</color><color>前往执行委员会总部。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 92,
+                "title": "障碍跑 3",
+                "summary": "比赛速报",
+                "content": "<color>千禧年科技学院的“美甘妮露”选</color><color>手破坏了全部障碍物，因此被判罚</color><color>退场。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 90,
+                "title": "铁人三项",
+                "summary": "比赛速报",
+                "content": "<color>现在为您介绍铁人三项比赛中备受</color><color>瞩目的选手！ </color><br /><color>笑容灿烂的忍者——“久田泉奈”</color><color>选手！</color><br /><color>驰骋阿拜多斯的体力怪物——“砂</color><color>狼白子”选手！</color><br /><color>拥有最强实力的“剑先鹤城”选手</color><color>！</color><br /><color>以上三名选手均有望夺冠！ 此外</color><color>，我们还将通过其他方式继续为您</color><color>播报比赛的最新进展！！</color><br />",
+                "role": " 月咏，绫音，莲见"
+            },
+            {
+                "id": 91,
+                "title": "比赛预告",
+                "summary": "通知",
+                "content": "<color>之前报道过的“乙花堇”选手将参</color><color>加“赛跑”比赛，期待她在该项目</color><color>中也取得好成绩！</color><br />",
+                "role": " "
+            },
+            {
+                "id": 88,
+                "title": "障碍跑 2",
+                "summary": "比赛速报",
+                "content": "<color>在障碍跑中出现了让整个运动场沸</color><color>腾的一幕。阿拜多斯高等学院的“</color><color>小鸟游星野”选手在各处发生爆炸</color><color>时，以敏捷的身手保护了同学院的</color><color>学员。虽然很遗憾她没能获得名次</color><color>，但她的迅捷表现赢得了全场的欢</color><color>呼。</color><br />",
+                "role": "野宫"
+            },
+            {
+                "id": 98,
+                "title": "执行委员会有关裁判团的决议",
+                "summary": "通知",
+                "content": "<color>裁判团正在就刚才的比赛结果重新</color><color>确认判定规则。此时，碰巧路过的</color><color>“空井咲”选手瞬间解决了她们的</color><color>问题。虽然不清楚“空井咲”选手</color><color>是通过何种渠道才掌握了所有规则</color><color>，但我们决定请她担任临时助理裁</color><color>判员。</color><br />",
+                "role": "宫子"
+            },
+            {
+                "id": 84,
+                "title": "乙花堇势如破竹",
+                "summary": "比赛速报",
+                "content": "<color>隶属于千禧年科技学院健身部的“</color><color>乙花堇”选手历来备受好评。到目</color><color>前为止，她已经连续参加了多个项</color><color>目，并在每个项目中都取得了辉煌</color><color>的成绩！</color><br /><color>难道她真的会如赛前采访所言，以</color><color>“肌肉与运动”解决所有问题吗？</color><color>！</color><br />",
+                "role": "诺亚"
+            },
+            {
+                "id": 82,
+                "title": "二人三脚 困难难度",
+                "summary": "比赛速报",
+                "content": "<color>歌赫娜的【赤司纯子·银镜伊织】</color><color>组合、C&C的【美甘妮露·一之</color><color>濑明日奈】组合，以及千禧年的【</color><color>才羽桃·才羽绿】双胞胎组合在困</color><color>难难度的“二人三脚”比赛中备受</color><color>关注。</color><br /><color>但这三组选手最终都没有成功到达</color><color>终点。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 75,
+                "title": "天使24特别摊位",
+                "summary": "美食情报",
+                "content": "<color>“天使24”似乎也在运动场前开</color><color>设了临时摊位。</color><br /><color>兼职生空同学表示“这次的临时摊</color><color>位并非24小时营业，但也期待大</color><color>家的光临！”</color><br /><color>请周知。</color><br />",
+                "role": "空"
+            },
+            {
+                "id": 77,
+                "title": "二人三脚 普通难度",
+                "summary": "比赛速报",
+                "content": "<color>崔尼蒂综合学院的“阿慈谷日富美</color><color>”选手与“白洲梓”选手组合在“</color><color>二人三脚”项目中获得第一名。两</color><color>人配合默契，比赛全程稳定发挥。</color><br />",
+                "role": "花子，小春"
+            },
+            {
+                "id": 96,
+                "title": "浦和花子选手的积极表现",
+                "summary": "比赛速报",
+                "content": "<color>崔尼蒂综合学院的“浦和花子”选</color><color>手虽在换装赛跑中落败，但在随后</color><color>的“推球比赛”“投球”“汤勺运</color><color>球”等项目中表现出色，大放异彩</color><color>。</color><br />",
+                "role": "日富美，梓，小春"
+            },
+            {
+                "id": 72,
+                "title": "手推相扑结果",
+                "summary": "比赛速报",
+                "content": "<color>百鬼夜行联合学院的“水羽三森”</color><color>选手以能读懂对手心思般的动作夺</color><color>得了胜利！ 看来她“读心术大师</color><color>”的称号名不虚传。</color><br />",
+                "role": "椿"
+            },
+            {
+                "id": 68,
+                "title": "头盔团暴动",
+                "summary": "瓦尔基丽",
+                "content": "<color>我们收到消息，头盔团正在运动场</color><color>外闹事。在问题解决之前，请在附</color><color>近的同学千万注意安全！ 我们现</color><color>在就去解决她们！ </color><br /><color>（负责人：中务桐乃）</color><br />",
+                "role": "吹雪"
+            },
+            {
+                "id": 66,
+                "title": "擦窗户",
+                "summary": "比赛速报",
+                "content": "<color>千禧年科技学院的“室笠茜”选手</color><color>以其高超的技术取得了不容置疑的</color><color>胜利。</color><br />",
+                "role": "妮露"
+            },
+            {
+                "id": 64,
+                "title": "马拉松",
+                "summary": "比赛速报",
+                "content": "<color>千禧年科技学院的“一之濑明日奈</color><color>”选手在马拉松比赛中失踪了，因</color><color>此被视为弃权。</color><br /><color>此外，该选手现已回到运动场中。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 61,
+                "title": "姐妹会",
+                "summary": "通知",
+                "content": "<color>目前，许多人正聚集在休息广场中</color><color>央。此处并不是姐妹会的咨询处，</color><color>因此请不要在此排队拥挤。也请玛</color><color>丽适度地展现自己的亲切。（来自</color><color>樱子）</color><br />",
+                "role": " "
+            },
+            {
+                "id": 58,
+                "title": "借物赛跑 2",
+                "summary": "比赛速报",
+                "content": "<color>红冬联邦学院的“佐城巴”选手在</color><color>借物赛跑中，从胸前取出了珍藏的</color><color>照片，因此获得了第一名。本次借</color><color>物赛跑的主题是“可爱的东西”。</color><br />",
+                "role": "切里诺"
+            },
+            {
+                "id": 56,
+                "title": "借物赛跑 1",
+                "summary": "比赛速报",
+                "content": "<color>千禧年科技学院的“早濑优香”选</color><color>手在借物赛跑中获得了第一名！ </color><color>但不知为何，夺得第一名的优香选</color><color>手似乎正因为纸条上的内容与已认</color><color>可其名次的裁判团发生争执。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 54,
+                "title": "外观独特？！",
+                "summary": "美食情报",
+                "content": "<color>据悉，“牛牧朱莉”选手参与制作</color><color>的“特制便当”正在限时销售。因</color><color>为看着实在太好吃了，所以我试着</color><color>尝一尝，来写一篇美食报道！</color><br /><color>［文章到此中断］</color><br />",
+                "role": "朱莉，风香"
+            },
+            {
+                "id": 49,
+                "title": "拆除通知",
+                "summary": "瓦尔基丽",
+                "content": "<color>听说有人在运动场中设置了阔剑地</color><color>雷。虽然很抱歉，但在拆除工作完</color><color>成前，能请大家稍等一下吗——？</color><color>要是有人受伤就麻烦了，还请大家</color><color>不要靠近。</color><br /><color>（负责人：合欢垣吹雪）</color><br />",
+                "role": "桐乃"
+            },
+            {
+                "id": 47,
+                "title": "障碍跑 1",
+                "summary": "比赛速报",
+                "content": "<color>崔尼蒂综合学院的“柚鸟夏”选手</color><color>一瞬间就确定了被藏起来的棉花糖</color><color>的位置。本以为她将就此获胜，但</color><color>由于其未能越过后续的障碍，最终</color><color>被淘汰。为此我们深表遗憾。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 44,
+                "title": "汤勺运球",
+                "summary": "比赛速报",
+                "content": "<color>千禧年科技学院的“角楯花凛”选</color><color>手在“汤勺运球”中取得了胜利。</color><color>从花凛选手的动作中可以看出，她</color><color>在比赛前进行了大量练习。取得胜</color><color>利时，她激动不已。</color><br />",
+                "role": "茜"
+            },
+            {
+                "id": 42,
+                "title": "空崎日奈选手，缺席？",
+                "summary": "八卦",
+                "content": "<color>原本有望以个人名义获得最佳运动</color><color>员奖的“空崎日奈”选手目前似乎</color><color>没有参加任何比赛项目。对此，各</color><color>种猜测不绝于耳。</color><br /><color>有消息称，她虽没有参加比赛，但</color><color>确实参加了本次晄轮大会。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 39,
+                "title": "投球 2",
+                "summary": "比赛速报",
+                "content": "<color>红冬联邦学院的“池仓真里奈”选</color><color>手在投球比赛中，信号一发出就立</color><color>即冲刺，由于她撞翻了球筐，最终</color><color>导致不战而败。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 36,
+                "title": "投球 1",
+                "summary": "比赛速报",
+                "content": "<color>崔尼蒂综合学院的“下江小春”选</color><color>手不知出于何种考虑，坚决拒绝参</color><color>加“投球”项目。</color><br />",
+                "role": "花子"
+            },
+            {
+                "id": 34,
+                "title": "大胃王 3",
+                "summary": "比赛速报",
+                "content": "<color>“鳄渊明里”选手在“碗子荞麦面</color><color>”项目中创造了新纪录，获得了优</color><color>胜。此外，由于该选手仍在进食中</color><color>，因此我们暂时无法为您提供详细</color><color>的比赛数据与纪录。</color><br />",
+                "role": "纯子"
+            },
+            {
+                "id": 29,
+                "title": "拔河比赛结果",
+                "summary": "比赛速报",
+                "content": "<color>下面播报“拔河”比赛的结果。</color><br /><color>比赛开始时，崔尼蒂稍处于劣势，</color><color>但当“若叶日向”选手抓住绳子后</color><color>，崔尼蒂瞬间就取得了超级华丽的</color><color>胜利。</color><br /><color>裁判表示，“简直就像一竿子钓上</color><color>来许多鱼一样。”</color><br />",
+                "role": "樱子"
+            },
+            {
+                "id": 31,
+                "title": "大胃王 2",
+                "summary": "比赛速报",
+                "content": "<color>“狮子堂泉”选手在“海参苏打水</color><color>”项目中也获得了不容置疑的冠军</color><color>。此外，由于其他参赛选手均未喝</color><color>完苏打水，因此无人取得亚军。</color><br />",
+                "role": "晴奈"
+            },
+            {
+                "id": 26,
+                "title": "大胃王 1",
+                "summary": "比赛速报",
+                "content": "<color>此次大胃王比赛中除了“碗子荞麦</color><color>面”等常见的食物外，还特别设置</color><color>了“金枪鱼布丁加柳叶鱼马卡龙拌</color><color>死亡辣酱”和“海参苏打水”等特</color><color>殊食物。</color><br /><color>欢迎大家踊跃参加。集合地点是东</color><color>侧A入口2号。</color><br />",
+                "role": "泉"
+            },
+            {
+                "id": 99,
+                "title": "应援战 4",
+                "summary": "比赛速报",
+                "content": "<color>来自工程部的琴里选手还为各位带</color><color>来了特别的留言，内容如下，“应</color><color>援是一项由来已久的活动，在不同</color><color>的文化中有着不同的表现形式。现</color><color>在为大家所熟知的“加油（Hoo</color><color>ray）”这一口号，关于这个词</color><color>的起源有很多说法，有一种比较通</color><color>俗的说法是，这个词来自“挥舞旗</color><color>帜”，但更为有力的说法是这个词</color><color>是由表示万岁的“Hurrah”</color><color>这一词语衍生而来。这样看来，这</color><color>一词语可能并不适合在应援时使用</color><color>。话虽如此，我们仍能在各处看到</color><color>不少衍生词与原有词意不同的例子</color><color>，例如，我现在就给各位举一个例</color><color>子……（非常抱歉，因篇幅有限，</color><color>以下内容省略）。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 27,
+                "title": "应援战 3",
+                "summary": "比赛速报",
+                "content": "<color>工程部的天才少女“猫冢响”选手</color><color>竟然不参加应援战？！ 有人看到</color><color>她抓着拉拉队服的裙摆蹲在一边。</color><color>此外，我们还收到了“白石歌原”</color><color>和“丰见琴里”两位选手的留言。</color><color>两位选手表示，工程部将为大家展</color><color>示融合了千禧年最先进技术的机器</color><color>人，以及全体成员华丽的助威舞蹈</color><color>。敬请期待。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 94,
+                "title": "汗水淋漓的超绝美少女的通知",
+                "summary": "特报",
+                "content": "<color>连太阳都要嫉妒的超绝美少女有消</color><color>息要传达给小千等人。</color><br /><color>因为天气太热了，所以我决定放弃</color><color>参赛，接下来就交给你们了。</color><br /><color>我会在凉爽的房间里为各位加油，</color><color>所以请努力吧。</color><br />",
+                "role": "千寻"
+            },
+            {
+                "id": 24,
+                "title": "应援战 2",
+                "summary": "比赛速报",
+                "content": "<color>在“朝比奈菲娜”选手的带领下，</color><color>百鬼夜行联合学院在应援战中表演</color><color>了名为“拉网BUSHI”的华丽</color><color>舞蹈。</color><br /><color>虽然“朝比奈菲娜”选手本人在表</color><color>演时高喊 \"侠客\"，但据专家称</color><color>，该表演似乎与侠客无关。</color><br />",
+                "role": "静子"
+            },
+            {
+                "id": 23,
+                "title": "应援战 1",
+                "summary": "比赛速报",
+                "content": "<color>在“歌住樱子”选手的带领下，崔</color><color>尼蒂综合学院的姐妹会参加了应援</color><color>战。但不知为何，场上气氛变得庄</color><color>严肃穆起来。</color><br />",
+                "role": "日向"
+            },
+            {
+                "id": 22,
+                "title": "蜈蚣赛跑比赛结果",
+                "summary": "比赛速报",
+                "content": "<color>“正义实现部”在刚刚举行的蜈蚣</color><color>赛跑中获胜。</color><br /><color>或许是因为作为替补的小春选手和</color><color>一花选手的加油助威，“剑先鹤城</color><color>”和“静山真白”等选手配合得非</color><color>常默契。</color><br />",
+                "role": "莲见"
+            },
+            {
+                "id": 21,
+                "title": "百夜堂特别分店！",
+                "summary": "美食情报",
+                "content": "<color>百鬼夜行联合学院“庆典运营管理</color><color>部”河和静子选手的“百夜堂”临</color><color>时摊位中， 最受欢迎的似乎是“</color><color>最中点心”。</color><br /><color>据负责的记者报道，最中的外皮酥</color><color>脆，馅料如丝绸般柔软。想要找到</color><color>这家店铺，认准店铺周围不停喊着</color><color>“庆典”的和风女仆和不停喊着“</color><color>干架”的金发和服学员就对了。</color><br />",
+                "role": "静子"
+            },
+            {
+                "id": 20,
+                "title": "赛跑 4",
+                "summary": "比赛速报",
+                "content": "<color>素有“奔跑的闪光弹”之称的守月</color><color>铃美选手如同闪光一般，在赛跑中</color><color>取得了第一名的优异成绩！</color><br />",
+                "role": "玲纱"
+            },
+            {
+                "id": 19,
+                "title": "失物招领",
+                "summary": "瓦尔基丽",
+                "content": "<color>如果您在大门入口至摊贩区一带发</color><color>现钱包，请速与我们联系！！</color><br /><color>(联系人：中务桐乃）</color><br />",
+                "role": "吹雪"
+            },
+            {
+                "id": 97,
+                "title": "赛跑 3",
+                "summary": "比赛速报",
+                "content": "<color>山海经高等学院的“药子纱绫”选</color><color>手在刚才的赛跑中向我们展示了她</color><color>无比开心的滑行姿态。</color><br /><color>但非常遗憾，由于她在比赛中使用</color><color>滑板，我们判罚其出局。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 18,
+                "title": "赛跑 2",
+                "summary": "比赛速报",
+                "content": "<color>和泉元艾米选手本有望凭借出色的</color><color>计算在个人项目中再次获得好名次</color><color>。</color><br /><color>但在赛跑开始前，她因为天气炎热</color><color>而试图脱掉体操服。执行委员会已</color><color>制止其不当行为，并判罚其弃权。</color><br />",
+                "role": "小春"
+            },
+            {
+                "id": 17,
+                "title": "赛跑 1",
+                "summary": "比赛速报",
+                "content": "<color>在刚刚的赛跑比赛中，白洲梓选手</color><color>刚起跑就使用了陷阱。她因此收到</color><color>了本次大会的第一张黄牌。</color><br />",
+                "role": " "
+            },
+            {
+                "id": 16,
+                "title": "歌赫娜供餐部",
+                "summary": "美食情报",
+                "content": "<color>我是歌赫娜学院供餐部的爱清风香</color><color>。供餐部摊位目前供应“体力便当</color><color>”和“冷荞麦面”等多种餐食。我</color><color>们有自信为大家提供充足的餐品，</color><color>并保证供餐的速度，期待大家的光</color><color>临。此外，如果您看到附近有移动</color><color>的松饼，请不要随意触碰，请尽快</color><color>联系我或牛牧朱莉。</color><br />",
+                "role": "朱莉"
+            },
+            {
+                "id": 15,
+                "title": "千禧年科技学院",
+                "summary": "通知",
+                "content": "<color>我是真理社的各务千寻，负责此次</color><color>安保相关工作。我们做好了万全的</color><color>准备，但在安保方面没有绝对的“</color><color>安全”。如果有任何让您觉得奇怪</color><color>的地方，或发现周围的机器有任何</color><color>异常行为，请随时与我们联系。</color><br /><color>我们将尽全力保障此次大会的安全</color><color>，让大家能尽情享受此次活动。祝</color><color>大家在晄轮大会中度过愉快的时光</color><color>。</color><br />",
+                "role": "小玉"
+            },
+            {
+                "id": 14,
+                "title": "寻人启事 2",
+                "summary": "通知",
+                "content": "<color>霞泽美游同学。您的同伴月雪宫子</color><color>同学正在找您。如果有人在附近看</color><color>到霞泽美游同学，请速与执行委员</color><color>会总部联系。</color><br /><color>此外，据说该同学有可能“在垃圾</color><color>桶内”。因此，各位在扔垃圾前请</color><color>先检查一下垃圾桶内部。</color><br />",
+                "role": "宫子"
+            },
+            {
+                "id": 13,
+                "title": "推球比赛",
+                "summary": "比赛速报",
+                "content": "<color>推球比赛刚开始一秒钟，“天童爱</color><color>丽丝”选手就将球击飞到了遥远的</color><color>彼岸，目前执行委员会正在进行回</color><color>收。还请各位耐心等待比赛重新开</color><color>始。</color><br />",
+                "role": "桃，绿，柚子"
+            },
+            {
+                "id": 11,
+                "title": "联合医疗总部 3",
+                "summary": "通知",
+                "content": "<color>刚刚说完阳光直射的问题后，我方</color><color>发现一名在烈日下酣然入睡的学员</color><color>。询问附近的人后得知，这位学员</color><color>似乎是“春日椿”。</color><br /><color>该学员目前正在联合医疗总部熟睡</color><color>，请与其同一社团或同一学院的人</color><color>员前来将其带回。此外，经检查，</color><color>该同学并未中暑，身体状况良好。</color><br /><color>（负责人：火宫千夏）</color><br />",
+                "role": "濑名"
+            },
+            {
+                "id": 12,
+                "title": "履带匍匐竞速",
+                "summary": "比赛速报",
+                "content": "<color>在接下来的履带匍匐竞速中，“阿</color><color>慈谷日富美”选手的表现备受期待</color><color>。今天她到底会向我们展示出怎样</color><color>的高超技术呢？让我们拭目以待！</color><br />",
+                "role": "梓"
+            },
+            {
+                "id": 10,
+                "title": "联合医疗总部 2",
+                "summary": "通知",
+                "content": "<color>今天天气晴朗，这种天气下还请注</color><color>意避免阳光直射。此外，请及时补</color><color>充水分。同时，我们还建议您摄取</color><color>适量盐分。</color><br /><color>如出现中暑症状，还请尽快前往联</color><color>合医疗总部。</color><br /><color>（负责人：冰室濑名）</color><br />",
+                "role": "芹娜"
+            },
+            {
+                "id": 9,
+                "title": "联合医疗总部",
+                "summary": "通知",
+                "content": "<color>我们在运动场前设立了“联合医疗</color><color>总部”。“联合医疗总部”接受来</color><color>自任何学院的患者。</color><br /><color>因此，如果您受伤或生病，请随时</color><color>前来就诊！</color><br /><color>（负责人：鹫见芹娜）</color><br />",
+                "role": "千夏"
+            },
+            {
+                "id": 8,
+                "title": "售罄通知",
+                "summary": "美食情报",
+                "content": "<color>通知：崔尼蒂综合学院茶话会专用</color><color>蛋糕卷现已经售罄。</color><br />",
+                "role": "渚"
+            },
+            {
+                "id": 7,
+                "title": "宣誓选手采访",
+                "summary": "通知",
+                "content": "<color>——请阿拜多斯高等学院的“奥空</color><color>绫音”选手发表一下宣誓后的感言</color><color>。</color><br /><color>“不是的，那不是我……！虽然没</color><color>能阻止这件事，我也有责任！”</color><br />",
+                "role": "野宫"
+            },
+            {
+                "id": 6,
+                "title": "寻人启事 1",
+                "summary": "通知",
+                "content": "<color>身着深蓝水手服，佩戴黄色领巾，</color><color>将橙色的头发梳成单侧马尾的学员</color><color>请注意。您的同伴正在等您。</color><br /><color>据悉，您在摊贩区和朋友一起吃了</color><color>串烧后，从运动场A入口进入了观</color><color>众席。</color><br /><color>如果您听到通知，请前往执行委员</color><color>会总部。</color><br /><color>（负责人：生盐诺亚）</color><br />",
+                "role": " "
+            },
+            {
+                "id": 5,
+                "title": "崔尼蒂图书管理部 1",
+                "summary": "通知",
+                "content": "<color>来自崔尼蒂图书管理部的通知。</color><br /><color>由于正午时分阳光强烈，《晄轮大</color><color>会指南手册》将不会于原本的12</color><color>:00开始销售。我部成员将于1</color><color>8:00天气凉爽时开始销售。</color><br /><color>（负责人：古关忧）</color><br />",
+                "role": "志美子"
+            },
+            {
+                "id": 4,
+                "title": "联邦理事会 第二版",
+                "summary": "通知",
+                "content": "<color>哎呀，写不下那么多字。那就不说</color><color>废话了，大家注意不要受伤，好好</color><color>享受这次的大会吧。</color><br /><color>（负责人：由良木桃可）</color><br />",
+                "role": "步"
+            },
+            {
+                "id": 3,
+                "title": "联邦理事会",
+                "summary": "通知",
+                "content": "<color>我是刚刚负责致辞的联邦理事会长</color><color>代理七神凛。很高兴此次晄轮大会</color><color>能顺利举办。</color><br /><color>在筹办过程中，我们经历了各种困</color><color>难。而冲破艰难险阻，令此次大会</color><color>顺利举行的，正是联邦理事会与本</color><color>次大会的主办学院——千禧年科技</color><color>学院。</color><br /><color>经过多方努力，大会终于得以在这</color><color>样一个风和日丽的日子里成功开幕</color><color>。首先，我要对各位所做的努力表</color><color>示感谢。其次，我还希望能够确认</color><color>举办本次晄轮大会本身的意义，与</color><color>此同时——</color><br />",
+                "role": "步，桃可"
+            }
+        ]
+    }
+}

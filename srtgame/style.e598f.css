@@ -1,0 +1,200 @@
+@font-face {
+  font-family: 'FZLanTingYuanGBK';
+  src: local('FZLanTingYuanGBK'), url('./FZLanTYK_B.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  -ms-touch-action: none;
+}
+
+body,
+canvas,
+div {
+  display: block;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* Remove spin of input type number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0;
+  /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  margin: 0;
+
+  cursor: default;
+  color: #888;
+  background-color: #333;
+
+  text-align: center;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+canvas {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#GameDiv,
+#Cocos3dGameContainer,
+#GameCanvas {
+  width: 100%;
+  height: 100%;
+}
+
+#splash {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./backdrop.jpg);
+  background-origin: padding-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#splash .top {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 22px;
+  background-color: #95CD84;
+}
+
+#splash .btm {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 22px;
+  background-color: #95CD84;
+}
+
+#splash::after {
+  content: '';
+  width: 20%;
+  min-width: 120px;
+  height: auto;
+  aspect-ratio: 425 / 456;
+  position: absolute;
+  top: -80px;
+  right: 60px;
+  background-image: url(./adorn.png);
+  background-origin: padding-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotate(45deg);
+  z-index: 10;
+}
+
+#splash::before {
+  content: '';
+  width: 25%;
+  min-width: 180px;
+  height: auto;
+  aspect-ratio: 425 / 456;
+  position: absolute;
+  bottom: -100px;
+  left: 30px;
+  background-image: url(./adorn.png);
+  background-origin: padding-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 10;
+}
+
+.progress-img {
+  margin-bottom: 6vh;
+  width: 36vw;
+  min-width: 200px;
+  height: auto;
+  aspect-ratio: 669 / 447;
+  z-index: 20;
+}
+
+.progress-bar {
+  margin-bottom: 4vh;
+  width: 36vw;
+  min-width: 200px;
+  height: 8px;
+  border-radius: 9px;
+  border: 3px solid #45362e;
+  background-color: #fefbea;
+  z-index: 20;
+}
+
+.progress-bar .progress-rate {
+  position: relative;
+  display: block;
+  height: 100%;
+  border-radius: 9px;
+  transition: width 0.4s ease-in-out;
+  background-image: url(./bar.png);
+}
+
+.progress-bar .progress-tip {
+  position: absolute;
+  right: -20px;
+  top: -26px;
+  font-family: "FZLanTingYuanGBK", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333333;
+  line-height: 20px;
+}
+
+.progress-text {
+  font-family: "FZLanTingYuanGBK", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #333333;
+  line-height: 22px;
+  z-index: 20;
+}
+
+.stripes .progress-rate {
+  animation: animate-stripes 1s linear infinite;
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}

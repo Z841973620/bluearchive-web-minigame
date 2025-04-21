@@ -1,0 +1,244 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "resources",
+    "deps": [],
+    "uuids": [
+        "04n8ozKwJCrLkoZiI8vOYh",
+        "0b3eexcAdN5qKy0ZuveuKr",
+        "40war8bKNE0LPT7oF/Ixfx",
+        "5cX7Y4W7pOGZHHNJwBRVZX",
+        "6f/kgidsJA3Z4Zt2GvJxIk",
+        "aa6EM3hV9EfpJlWhmEh2Y7",
+        "c9QvNcUx9G7o8lYiqUQtnS",
+        "cfq4meGXhFTZbevncWHUtf",
+        "f58YjfiMJLqq0XzAj9SV6z",
+        "04n8ozKwJCrLkoZiI8vOYh@6c48a",
+        "04n8ozKwJCrLkoZiI8vOYh@f9941",
+        "0b3eexcAdN5qKy0ZuveuKr@6c48a",
+        "0b3eexcAdN5qKy0ZuveuKr@f9941",
+        "40war8bKNE0LPT7oF/Ixfx@6c48a",
+        "40war8bKNE0LPT7oF/Ixfx@f9941",
+        "5cX7Y4W7pOGZHHNJwBRVZX@6c48a",
+        "5cX7Y4W7pOGZHHNJwBRVZX@f9941",
+        "6f/kgidsJA3Z4Zt2GvJxIk@6c48a",
+        "6f/kgidsJA3Z4Zt2GvJxIk@f9941",
+        "aa6EM3hV9EfpJlWhmEh2Y7@6c48a",
+        "aa6EM3hV9EfpJlWhmEh2Y7@f9941",
+        "c9QvNcUx9G7o8lYiqUQtnS@6c48a",
+        "c9QvNcUx9G7o8lYiqUQtnS@f9941",
+        "cfq4meGXhFTZbevncWHUtf@6c48a",
+        "cfq4meGXhFTZbevncWHUtf@f9941",
+        "f58YjfiMJLqq0XzAj9SV6z@6c48a",
+        "f58YjfiMJLqq0XzAj9SV6z@f9941",
+        "0221f5dcf",
+        "06346bdfe"
+    ],
+    "paths": {
+        "0": [
+            "reward/reward5",
+            0
+        ],
+        "1": [
+            "reward/reward3",
+            0
+        ],
+        "2": [
+            "audio/audio_play",
+            0
+        ],
+        "3": [
+            "audio/audio_mute",
+            0
+        ],
+        "4": [
+            "reward/reward2",
+            0
+        ],
+        "5": [
+            "reward/reward1",
+            0
+        ],
+        "6": [
+            "reward/reward4",
+            0
+        ],
+        "7": [
+            "reward/reward6",
+            0
+        ],
+        "8": [
+            "reward/reward7",
+            0
+        ],
+        "9": [
+            "reward/reward5/texture",
+            1,
+            1
+        ],
+        "10": [
+            "reward/reward5/spriteFrame",
+            2,
+            1
+        ],
+        "11": [
+            "reward/reward3/texture",
+            1,
+            1
+        ],
+        "12": [
+            "reward/reward3/spriteFrame",
+            2,
+            1
+        ],
+        "13": [
+            "audio/audio_play/texture",
+            1,
+            1
+        ],
+        "14": [
+            "audio/audio_play/spriteFrame",
+            2,
+            1
+        ],
+        "15": [
+            "audio/audio_mute/texture",
+            1,
+            1
+        ],
+        "16": [
+            "audio/audio_mute/spriteFrame",
+            2,
+            1
+        ],
+        "17": [
+            "reward/reward2/texture",
+            1,
+            1
+        ],
+        "18": [
+            "reward/reward2/spriteFrame",
+            2,
+            1
+        ],
+        "19": [
+            "reward/reward1/texture",
+            1,
+            1
+        ],
+        "20": [
+            "reward/reward1/spriteFrame",
+            2,
+            1
+        ],
+        "21": [
+            "reward/reward4/texture",
+            1,
+            1
+        ],
+        "22": [
+            "reward/reward4/spriteFrame",
+            2,
+            1
+        ],
+        "23": [
+            "reward/reward6/texture",
+            1,
+            1
+        ],
+        "24": [
+            "reward/reward6/spriteFrame",
+            2,
+            1
+        ],
+        "25": [
+            "reward/reward7/texture",
+            1,
+            1
+        ],
+        "26": [
+            "reward/reward7/spriteFrame",
+            2,
+            1
+        ]
+    },
+    "scenes": {},
+    "packs": {
+        "0221f5dcf": [
+            "1",
+            "3",
+            "4",
+            "2",
+            "0",
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "06346bdfe": [
+            "11",
+            "15",
+            "17",
+            "13",
+            "9",
+            "19",
+            "21",
+            "23",
+            "25"
+        ]
+    },
+    "versions": {
+        "import": [
+            27,
+            "f047d",
+            10,
+            "ba28e",
+            28,
+            "e2df6",
+            12,
+            "b6e3a",
+            14,
+            "1d683",
+            16,
+            "d64ea",
+            18,
+            "33e5b",
+            20,
+            "8d3fa",
+            22,
+            "ad4d3",
+            24,
+            "3aeb1",
+            26,
+            "5369f"
+        ],
+        "native": [
+            0,
+            "8e577",
+            1,
+            "4d472",
+            2,
+            "11181",
+            3,
+            "2940a",
+            4,
+            "71567",
+            5,
+            "e0658",
+            6,
+            "10fb0",
+            7,
+            "7cfe9",
+            8,
+            "abf08"
+        ]
+    },
+    "redirect": [],
+    "debug": false,
+    "extensionMap": {},
+    "types": [
+        "cc.ImageAsset",
+        "cc.Texture2D",
+        "cc.SpriteFrame"
+    ]
+}

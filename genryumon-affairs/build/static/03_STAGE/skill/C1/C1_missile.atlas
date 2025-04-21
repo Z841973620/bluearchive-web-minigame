@@ -1,0 +1,12 @@
+C1_missile.png
+size:25,25
+filter:Linear,Linear
+pma:true
+C1/miss
+bounds:2,20,12,3
+white_01
+bounds:16,18,5,5
+white_02
+bounds:2,11,7,7
+white_03
+bounds:2,2,7,7

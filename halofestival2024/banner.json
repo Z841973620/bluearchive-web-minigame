@@ -1,0 +1,39 @@
+{
+    "meta": {
+        "v": "1",
+        "region": "CN",
+        "ok": true,
+        "err": {
+            "code": 0,
+            "msg": ""
+        }
+    },
+    "data": {
+        "banner": [
+			{
+                "id": 1,
+                "url": "./YbjGy3E_.png"
+            },
+			{
+                "id": 2,
+                "url": "./7SfsSqgA.png"
+            },
+			{
+                "id": 3,
+                "url": "./JnJBYnNe.png"
+            },
+            {
+                "id": 4,
+                "url": "./eGgCergu.png"
+            },
+			{
+                "id": 5,
+                "url": "./Apa0E-gH.png"
+            },
+            {
+                "id": 6,
+                "url": "./QVFjt3Wg.png"
+            }
+        ]
+    }
+}

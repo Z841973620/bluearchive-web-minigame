@@ -1,0 +1,80 @@
+{
+    "meta": {
+        "v": "1",
+        "region": "CN",
+        "ok": true,
+        "err": {
+            "code": 0,
+            "msg": ""
+        }
+    },
+    "data": {
+        "catalog": [
+            {
+                "id": 1,
+                "lock": true
+            },
+            {
+                "id": 2,
+                "lock": true
+            },
+            {
+                "id": 3,
+                "lock": true
+            },
+            {
+                "id": 4,
+                "lock": true
+            },
+            {
+                "id": 5,
+                "lock": true
+            },
+            {
+                "id": 6,
+                "lock": true
+            },
+            {
+                "id": 7,
+                "lock": true
+            },
+            {
+                "id": 8,
+                "lock": true
+            },
+            {
+                "id": 9,
+                "lock": true
+            },
+            {
+                "id": 10,
+                "lock": true
+            },
+            {
+                "id": 11,
+                "lock": true
+            },
+            {
+                "id": 12,
+                "lock": true
+            },
+            {
+                "id": 13,
+                "lock": true
+            },
+            {
+                "id": 14,
+                "lock": true
+            }
+        ],
+        "challengeTask": {
+            "lock": 7,
+            "total": 7,
+            "award": "received"
+        },
+        "allTask": {
+            "lock": 14,
+            "total": 14
+        }
+    }
+}

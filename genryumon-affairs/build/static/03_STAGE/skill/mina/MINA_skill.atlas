@@ -1,0 +1,7 @@
+MINA_skill.png
+size:79,79
+filter:Linear,Linear
+pma:true
+skill
+bounds:2,52,75,25
+offsets:0,1,75,26

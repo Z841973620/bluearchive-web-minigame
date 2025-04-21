@@ -1,0 +1,99 @@
+{
+  "frames": [
+    {
+      "filename": "game_cutscene_intro_8",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "game_cutscene_intro_9",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 420
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "game_cutscene_intro_10",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 840
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "game_cutscene_intro_11",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 1260
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "game_cutscene_intro_12",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 1690
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "game_cutscene_intro_13",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 2110
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "game_cutscene_intro_14",
+      "frame": {
+        "w": 800,
+        "h": 420,
+        "x": 0,
+        "y": 2530
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  ],
+  "meta": {
+    "description": "Atlas generado con Atlas Packer Gamma V2",
+    "web": "https://gammafp.github.io/atlas-packer-phaser/"
+  }
+}

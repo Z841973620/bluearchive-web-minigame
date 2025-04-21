@@ -1,0 +1,217 @@
+{
+  "skeleton": {
+    "hash": "45uNSmJaqS8",
+    "spine": "4.2.40",
+    "x": -30,
+    "y": -30,
+    "width": 60,
+    "height": 60,
+    "images": "./image/",
+    "audio": "./audio"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "scaleX": 0.5,
+      "scaleY": 0.5
+    },
+    {
+      "name": "milk",
+      "parent": "root"
+    },
+    {
+      "name": "small3",
+      "parent": "root"
+    },
+    {
+      "name": "small2",
+      "parent": "root"
+    },
+    {
+      "name": "small",
+      "parent": "root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "milk",
+      "bone": "milk",
+      "attachment": "milk"
+    },
+    {
+      "name": "small",
+      "bone": "small",
+      "attachment": "small"
+    },
+    {
+      "name": "small2",
+      "bone": "small2",
+      "attachment": "small2"
+    },
+    {
+      "name": "small3",
+      "bone": "small3",
+      "attachment": "small3"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "milk": {
+          "milk": {
+            "width": 120,
+            "height": 120
+          }
+        },
+        "small": {
+          "small": {
+            "width": 8,
+            "height": 8
+          }
+        },
+        "small2": {
+          "small2": {
+            "width": 12,
+            "height": 12
+          }
+        },
+        "small3": {
+          "small3": {
+            "width": 32,
+            "height": 32
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "animation": {
+      "slots": {
+        "milk": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "small": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "small2": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "small3": {
+          "rgba": [
+            {
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.6667,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "small": {
+          "translate": [
+            {
+              "y": -31.68
+            },
+            {
+              "time": 1.6667,
+              "x": -40.91,
+              "y": 24.32
+            }
+          ]
+        },
+        "small2": {
+          "translate": [
+            {
+              "y": -31.68
+            },
+            {
+              "time": 1.6667,
+              "x": 22.37,
+              "y": 64.97
+            }
+          ]
+        },
+        "small3": {
+          "translate": [
+            {
+              "y": -31.68
+            },
+            {
+              "time": 1.6667,
+              "x": 24.12,
+              "y": 18.87
+            }
+          ]
+        },
+        "milk": {
+          "translate": [
+            {
+              "y": -18.2
+            },
+            {
+              "time": 0.5,
+              "y": 10.79,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "y": 10.79
+            },
+            {
+              "time": 1.6667,
+              "y": -18.2
+            }
+          ]
+        }
+      }
+    }
+  }
+}
