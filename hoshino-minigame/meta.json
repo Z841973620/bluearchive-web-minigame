@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "v": "1",
+        "region": "CN",
+        "ok": true,
+        "err": {
+            "code": 0,
+            "msg": ""
+        }
+    },
+    "data": {
+        "catalogCount": 10,
+        "awardProgress": {
+            "count": 7,
+            "total": 7
+        },
+        "gameProgress": 3
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "sessionKey": "f9d1c9e479e5",
+    "activityId": "newyear-dj",
+    "userId": "10000000000",
+    "status": "playing",
+    "encrypt": "eyJrZXkiOiI1NWI0YzU4ZGRmMmJhYzI4N2Q3YTk2Zjg4MzNhMWRkMjhjOWViZTFiMGJlMTg1NGIyNGEzOTgyMmYzYmNjNjEwIiwiaXYiOiJlNTFkNTBjN2I4MThmNTM2N2JjZGE1ZDM5ZTlkNjk4ZiJ9",
+    "startTime": "2026-01-29T21:43:38.466Z",
+    "results": {
+        "music_000": {
+            "isAutoPlay": false,
+            "currentScore": 0,
+            "highestScore": 0,
+            "lowestScore": 0,
+            "isFirstTime": false,
+            "currentCombo": 0,
+            "highestCombo": 0,
+            "lowestCombo": 0
+        },
+        "remainingRewards": 0,
+        "claimedRewards": 7,
+        "currentDay": 7,
+        "lastClaimDate": "2026-01-30",
+        "claimStatus": "CLAIMED_TODAY",
+        "availableRewards": []
+    }
+}

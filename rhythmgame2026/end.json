@@ -1,0 +1,40 @@
+{
+    "sessionKey": "f9d1c9e479e5",
+    "activityId": "newyear-dj",
+    "userId": "10000000000",
+    "status": "ended",
+    "startTime": "2026-01-29T21:43:38.000Z",
+    "endTime": "2026-01-29T21:46:15.510Z",
+    "metadata": {
+        "webId": 1014,
+        "musicId": "music_000",
+        "difficulty": "easy",
+        "isAutoPlay": false
+    },
+    "result": {
+        "score": 0,
+        "combo": 0
+    },
+    "results": {
+        "music_000": {
+            "isAutoPlay": false,
+            "currentScore": 0,
+            "highestScore": 0,
+            "lowestScore": 0,
+            "isFirstTime": false,
+            "currentCombo": 0,
+            "highestCombo": 0,
+            "lowestCombo": 0
+        },
+        "rewardSent": false,
+        "message": "今日奖励已经领取过了！",
+        "claimStatus": "CLAIMED_TODAY",
+        "currentDay": 7,
+        "remainingRewards": 0,
+        "hasClaimedToday": true,
+        "targets": [
+            "game"
+        ],
+        "isComplete": true
+    }
+}

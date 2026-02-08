@@ -1,0 +1,16 @@
+{
+    "meta": {
+        "v": "1",
+        "region": "CN",
+        "ok": true,
+        "err": {
+            "code": 0,
+            "msg": ""
+        }
+    },
+    "data": {
+        "uid": "10000000000",
+        "sdkId": "1000000000",
+        "channelId": "1"
+    }
+}
