@@ -1,0 +1,24 @@
+{
+    "sessionKey": "6bd2fc9f4515",
+    "activityId": "beat-heaven",
+    "userId": "10000000000",
+    "status": "playing",
+    "encrypt": "eyJrZXkiOiJkY2I3NzUxMzE5ZGQ3NmM5OTlhYjg3YWI1ZmQ2YjlhODgwOTUzZDk4ODBlZGY4YmIwMWJkMDhjN2NhZGJlN2FjIiwiaXYiOiIzNGRkODliMzIyZjJhOWI5NTMwMzc5YTExYzBiOGIwMCJ9",
+    "startTime": "2026-02-14T09:30:16.805Z",
+    "results": {
+        "isPureFirstTime": false,
+        "music_000": {
+            "isAutoPlay": false,
+            "currentScore": 0,
+            "highestScore": 0,
+            "lowestScore": 0,
+            "isFirstTime": false
+        },
+        "remainingRewards": 0,
+        "claimedRewards": 7,
+        "currentDay": 7,
+        "lastClaimDate": "2026-02-14",
+        "claimStatus": "CLAIMED_TODAY",
+        "availableRewards": []
+    }
+}

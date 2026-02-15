@@ -1,0 +1,111 @@
+
+slogan.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+slogan_1
+  rotate: 180
+  xy: 503, 23
+  size: 628, 430
+  orig: 628, 433
+  offset: 0, 3
+  index: -1
+slogan_2
+  rotate: false
+  xy: 2, 4
+  size: 547, 462
+  orig: 600, 462
+  offset: 53, 0
+  index: -1
+slogan_btf_1
+  rotate: false
+  xy: 25, 436
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+slogan_btf_2
+  rotate: false
+  xy: 2, 377
+  size: 9, 8
+  orig: 9, 8
+  offset: 0, 0
+  index: -1
+slogan_btf_3
+  rotate: false
+  xy: 23, 407
+  size: 23, 32
+  orig: 23, 32
+  offset: 0, 0
+  index: -1
+slogan_btf_4
+  rotate: false
+  xy: 2, 423
+  size: 22, 43
+  orig: 22, 43
+  offset: 0, 0
+  index: -1
+slogan_btf_5
+  rotate: false
+  xy: 52, 451
+  size: 7, 15
+  orig: 7, 15
+  offset: 0, 0
+  index: -1
+slogan_btf_6
+  rotate: false
+  xy: 19, 441
+  size: 31, 25
+  orig: 31, 25
+  offset: 0, 0
+  index: -1
+slogan_btf_7
+  rotate: false
+  xy: 61, 455
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+slogan_btf_8
+  rotate: false
+  xy: 2, 387
+  size: 19, 34
+  orig: 19, 34
+  offset: 0, 0
+  index: -1
+slogan_long_1
+  rotate: true
+  xy: 1104, 253
+  size: 214, 171
+  orig: 319, 215
+  offset: 0, 44
+  index: -1
+slogan_long_2
+  rotate: false
+  xy: 1083, 3
+  size: 174, 246
+  orig: 779, 301
+  offset: 76, 0
+  index: -1
+slogan_long_3
+  rotate: true
+  xy: 1241, 11
+  size: 286, 105
+  orig: 286, 105
+  offset: 0, 0
+  index: -1
+slogan_long_4
+  rotate: false
+  xy: 478, 6
+  size: 225, 65
+  orig: 225, 65
+  offset: 0, 0
+  index: -1
+slogan_long_5
+  rotate: true
+  xy: 1274, 200
+  size: 216, 71
+  orig: 216, 71
+  offset: 0, 0
+  index: -1

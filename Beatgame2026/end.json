@@ -1,0 +1,34 @@
+{
+    "sessionKey": "3277a200cb5e",
+    "activityId": "beat-heaven",
+    "userId": "10006907518",
+    "status": "ended",
+    "startTime": "2026-02-14T09:40:58.000Z",
+    "endTime": "2026-02-14T09:42:35.421Z",
+    "metadata": {
+        "webId": 1017,
+        "musicId": "music_000",
+        "difficulty": "easy",
+        "isAutoPlay": false
+    },
+    "result": {
+        "score": 0,
+        "combo": 0
+    },
+    "results": {
+        "music_000": {
+            "isAutoPlay": false,
+            "currentScore": 0,
+            "highestScore": 0,
+            "lowestScore": 0,
+            "isFirstTime": false
+        },
+        "rewardSent": false,
+        "message": "今日奖励已经领取过了！",
+        "claimStatus": "CLAIMED_TODAY",
+        "currentDay": 2,
+        "remainingRewards": 5,
+        "hasClaimedToday": true,
+        "isComplete": false
+    }
+}

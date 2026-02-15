@@ -1,0 +1,97 @@
+.bukatsu {
+  font-size: 24px;
+  color: #7bd3fc;
+  -webkit-text-stroke: 0.1px #4580ad;
+}
+
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: none;
+}
+
+/* シルエットから出現-----------------------------------　*/
+@keyframes appear_from_silhouette {
+  0% {
+    -webkit-filter: brightness(0%) opacity(0%);
+    filter: brightness(0%) opacity(0%);
+  }
+  5% {
+    -webkit-filter: brightness(0%) opacity(50%);
+    filter: brightness(0%) opacity(50%);
+  }
+  10% {
+    -webkit-filter: brightness(0%) opacity(100%);
+    filter: brightness(0%) opacity(100%);
+  }
+  100% {
+    -webkit-filter: brightness(100%) opacity(100%);
+    filter: brightness(100%) opacity(100%);
+  }
+}
+
+@keyframes change_in_silhouette {
+  40%{
+    -webkit-filter: brightness(0%);
+    filter: brightness(0%);
+
+  }
+  100% {
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+  }
+}
+
+/* シルエットで出現 */
+@keyframes appear_by_silhouette {
+  0%,
+  100% {
+    -webkit-filter: brightness(0%);
+    filter: brightness(0%);
+  }
+}
+
+/* シルエットから消える-----------------------------------　*/
+@keyframes hide_in_silhouette {
+  25%,
+  50% {
+    -webkit-filter: brightness(0%) opacity(100%);
+    filter: brightness(0%) opacity(100%);
+  }
+  100% {
+    -webkit-filter: opacity(0%);
+    filter: opacity(0%);
+  }
+}
+
+/* ジャンプ-----------------------------------　*/
+@keyframes jumpAnimation {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+/* zoom_apear-----------------------------------　*/
+@keyframes zoom_appear {
+  0% {
+    -webkit-filter: opacity(30%);
+    transform: scale(0.5);
+  }
+  90%,
+  100% {
+    -webkit-filter: opacity(100%);
+    transform: scale(1);
+  }
+}

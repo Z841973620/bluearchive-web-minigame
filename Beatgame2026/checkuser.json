@@ -1,0 +1,9 @@
+{
+    "results": {
+        "sdkId": "1000000000",
+        "userId": "10000000000",
+        "nickname": "user"
+    },
+    "cache": false,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMDAwNjkwNzUxOCIsImdhbWVJZCI6ImJsdWVhcmNoaXZlIiwicmVnaW9uIjoiQ04iLCJzZGtJZCI6IjEwMDIxMDI3MTciLCJuaWNrbmFtZSI6Ijg0IiwiaWF0IjoxNzcxMDU5NDA5LCJleHAiOjE3NzM2NTE0MDl9.tjZZYnEYTmKaS-u4Fe_9ISfFnhDOwdfCaIf2ihGteEw"
+}
